@@ -180,7 +180,7 @@
     margin-left: 40px;
     border-radius: 60px;
 }
-.my-courses > h2 ,p{
+.h2 , .p{
     color: black;
     text-align: center;
 }
@@ -305,27 +305,18 @@
     cursor: pointer;
     
 }
-.buttom-close{
-    margin-top:-280px;
+
+.buttom2{
+    display: block;
+    padding: 8px;
+    margin-top: -70px;
     margin-left: 1000px;
     background-color: red;
+    width: 50px;
     border:none;
-}
-.buttom-close2{
-    margin-top:-300px;
-    margin-left: 1000px;
-    background-color: red;
-    border:none;
-}
-.buttom-close3{
-    margin-top:-300px;
-    margin-left: 1000px;
-    background-color: red;
-    border:none;
-}
-.buttom-close4{
-    margin-top:-300px;
-    margin-left: 1000px;
-    background-color: red;
-    border:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    cursor: pointer;
 }
