@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles-dist.css">
     <title>Login</title>
 </head>
 <body>
-    <form action="#" id= "form-primary" >
+    <form action="php/login.php" id="form-primary" method="POST">
         <div class="div-login">
             <img src="images/Logo-conduzcamos.png" alt="Logo-conduzcamos.png" class="logotype">
             <label for="select-user" class="label-information-basic">Tipo de usuario</label>
@@ -17,14 +16,15 @@
                 <option value="Administrador" class="option">Administrador</option>
                 <option value="Aprendiz" class="option">Aprendiz</option>
             </select>
-            <label for="document" class="label-information-basic">Documento de identidad</label>
-            <input type="text" class="document" id="document" placeholder="Documento"/>
+            <label for="email" class="label-information-basic">Correo</label>
+            <input type="text" class="email" name="email" id="email" placeholder="e-mail"/>
             <label for="password" class="label-information-basic">Contraseña</label>
-            <input type="password" id="password" class="password" placeholder="Contraseña"/>
+            <input type="password" name="password" id="password" class="password" placeholder="Contraseña"/>
             <a class="reset" href="php/restore.php">¿Olvidó su contraseña?</a>
-            <a class="reset" href="php/register.php">Registrarse</a>
             <input type="submit" value="Ingresar" class="enter">
         </div>
+        <div class="class-error"></div>
+        <div class="class-correct"></div>
     </form>
 </body>
 </html>
