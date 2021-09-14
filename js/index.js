@@ -13,7 +13,6 @@ var close4 = document.querySelector('.buttom-close4');
 
     open.addEventListener('click', ()=>{
         container.style.display = "block";
-        console.log('presiono el container 1')
     });
 
     close.addEventListener('click', ()=>{
@@ -22,7 +21,6 @@ var close4 = document.querySelector('.buttom-close4');
 
     open2.addEventListener('click', ()=>{
         container2.style.display = "block";
-        console.log('presiono el container 2')
     });
 
     close2.addEventListener('click', ()=>{
@@ -30,7 +28,6 @@ var close4 = document.querySelector('.buttom-close4');
     });
     open3.addEventListener('click', ()=>{
         container3.style.display = "block";
-        console.log('presiono el container 1')
     });
 
     close3.addEventListener('click', ()=>{
@@ -39,7 +36,6 @@ var close4 = document.querySelector('.buttom-close4');
 
     open4.addEventListener('click', ()=>{
         container4.style.display = "block";
-        console.log('presiono el container 2')
     });
 
     close4.addEventListener('click', ()=>{
