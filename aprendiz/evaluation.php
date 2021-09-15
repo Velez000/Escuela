@@ -34,15 +34,14 @@
     <div class="menu-select">
       <ul class="list">
         <li class="item">
-          <a class="link-menu" href="../aprendiz/home.html">Mis cursos</a>
+          <a class="link-menu" href="../aprendiz/home.php">Mis cursos</a>
         </li>
         <li class="item">
-          <a class="link-menu" href="../aprendiz/evaluation.html"
-            >Evaluaciones</a
-          >
+          <a class="link-menu" href="../aprendiz/evaluation.php"
+            >Evaluaciones</a>
         </li>
         <li class="item">
-          <a class="link-menu" href="../aprendiz/rating.html">Calificaciones</a>
+          <a class="link-menu" href="../aprendiz/rating.php">Calificaciones</a>
         </li>
         <li class="item">
           <a class="link-menu" href="../index.html">Cerrar sesion</a>
@@ -64,11 +63,6 @@
             <button class="buttom2 buttom-close">X</button>
           </div>
 
-          <div class="prueba">
-            <?php
-            include '../php/index.php';
-            "<button class='buttomclose'>X</button>";
-          ?>
           </div>
         </div>
       </div>

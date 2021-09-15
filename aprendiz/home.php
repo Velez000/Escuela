@@ -34,15 +34,15 @@
     <div class="menu-select">
       <ul class="list">
         <li class="item">
-          <a class="link-menu" href="../aprendiz/home.html">Mis cursos</a>
+          <a class="link-menu" href="../aprendiz/home.php">Mis cursos</a>
         </li>
         <li class="item">
-          <a class="link-menu" href="../aprendiz/evaluation.html"
+          <a class="link-menu" href="../aprendiz/evaluation.php"
             >Evaluaciones</a
           >
         </li>
         <li class="item">
-          <a class="link-menu" href="../aprendiz/rating.html">Calificaciones</a>
+          <a class="link-menu" href="../aprendiz/rating.php">Calificaciones</a>
         </li>
         <li class="item">
           <a class="link-menu" href="../index.html">Cerrar sesion</a>
@@ -64,13 +64,11 @@
             <button class="buttom2 buttom-close">X</button>
           </div>
           <p class="p">
-           <h2>ASPECTOS GENERALES DEL TRÁNSITO, AUTORIDADES, LICENCIAS DE CONDUCCIÓN Y MECÁNICA BASICA.</h2>
-           <h2>EQUIVALE A VEINTE POR CIENTO (20%) DE LA EVALUACIÓN</h2>
+           <h3>ASPECTOS GENERALES DEL TRÁNSITO, AUTORIDADES, LICENCIAS DE CONDUCCIÓN Y MECÁNICA BASICA.</h3>
+           <h3>EQUIVALE A VEINTE POR CIENTO (20%) DE LA EVALUACIÓN</h3>
 
            <p class="cuestions">
              1. SI TRANSITO EN UNA MOTOCICLETA EN CONTRAVIA Y SOY SORPRENDIDO POR UN AGENTE DE TRÁNSITO PUEDE PROCEDER ASÍ
-             <input type="radio" name="answer-1" class="class-answer" id="answer-a" value="">
-             <label for="answer-a"></label>
            </p>
           </p>
           

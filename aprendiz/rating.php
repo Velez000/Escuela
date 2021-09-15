@@ -34,13 +34,13 @@
     <div class="menu-select">
       <ul class="list">
         <li class="item">
-          <a class="link-menu" href="home.html">Mis cursos</a>
+          <a class="link-menu" href="home.php">Mis cursos</a>
         </li>
         <li class="item">
-          <a class="link-menu" href="evaluation.html">Evaluaciones</a>
+          <a class="link-menu" href="evaluation.php">Evaluaciones</a>
         </li>
         <li class="item">
-          <a class="link-menu" href="rating.html">Calificaciones</a>
+          <a class="link-menu" href="rating.php">Calificaciones</a>
         </li>
         <li class="item"><a class="link-menu" href="../index.html">Cerrar sesion</a></li>
       </ul>

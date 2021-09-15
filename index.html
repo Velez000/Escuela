@@ -8,7 +8,7 @@
     <title>Login</title>
 </head>
 <body>
-    <form action="php/login.php" id="form-primary" method="POST">
+    <form action="php/autentication.php" id="form-primary" method="POST">
         <div class="div-login">
             <img src="images/Logo-conduzcamos.png" alt="Logo-conduzcamos.png" class="logotype">
             <label for="select-user" class="label-information-basic">Tipo de usuario</label>
@@ -20,7 +20,7 @@
             <input type="text" class="class-email" name="email" id="email" placeholder="e-mail" pattern="[A-Za-z=-9_-@-.]{6-16}" required/>
             <label for="password" class="label-information-basic">Contraseña</label>
             <input type="password" name="password" id="password" class="password" placeholder="Contraseña" required/>
-            <a class="reset" href="php/restore.php">¿Olvidó su contraseña?</a>
+            <a class="reset" href="restore.php">¿Olvidó su contraseña?</a>
             <input type="submit" value="Ingresar" class="enter">
         </div>
         <div class="class-error"></div>
