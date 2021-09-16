@@ -1,3 +1,13 @@
+<?php
+session_start();
+ 
+if(!isset($_SESSION['user_id2'])){
+    header('Location: ../index.html');
+    exit;
+} else {
+    // Show users the page!
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
