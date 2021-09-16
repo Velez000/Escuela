@@ -1,4 +1,13 @@
-
+<?php
+session_start();
+ 
+if(!isset($_SESSION['user_id'])){
+    header('Location: ../index.html');
+    exit;
+} else {
+    // Show users the page!
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -44,7 +53,7 @@
           <a class="link-menu" href="#">Datos</a>
         </li>
         <li class="item">
-          <a class="link-menu" href="../index.html">Cerrar sesion</a>
+          <a class="link-menu" href="../php/deleted.php">Cerrar sesion</a>
         </li>
       </ul>
     </div>
