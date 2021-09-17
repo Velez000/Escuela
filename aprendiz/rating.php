@@ -15,7 +15,7 @@ if(!isset($_SESSION['user_id2'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/styles-dist.css" />
-    <title>Calificaciones aprendiz</title>
+    <title>Calificaciones</title>
   </head>
 
   <body>
@@ -32,7 +32,18 @@ if(!isset($_SESSION['user_id2'])){
           class="name-user"
           type="text"
           readonly
-          placeholder="Nombre de aprendiz"
+          value="<?php
+                                                            $conn = mysqli_connect('localhost', 'root', '', 'db_escuela');
+                                                            if ($conn) {
+                                                              //echo "Conexion exitosa";
+                                                            } else {
+                                                              echo "Error en la conexion";
+                                                            }
+                                                            $query = mysqli_query($conn, "SELECT * FROM aprendiz ");
+                                                            while ($restultado = mysqli_fetch_array($query)) {
+                                                              echo $restultado['nombre_apren'];
+                                                            }
+                                                            ?>"
         />
         <img
           class="profile"
@@ -44,17 +55,20 @@ if(!isset($_SESSION['user_id2'])){
     <div class="menu-select">
       <ul class="list">
         <li class="item">
-          <a class="link-menu" href="home.php">Mis cursos</a>
+          <a class="link-menu" href="../aprendiz/home.php">Mis cursos</a>
         </li>
         <li class="item">
-          <a class="link-menu" href="evaluation.php">Evaluaciones</a>
+          <a class="link-menu" href="../aprendiz/evaluation.php"
+            >Evaluaciones</a
+          >
         </li>
         <li class="item">
-          <a class="link-menu" href="rating.php">Calificaciones</a>
+          <a class="link-menu" href="../aprendiz/rating.php">Calificaciones</a>
         </li>
-        <li class="item"><a class="link-menu" href="../index.html">Cerrar sesion</a></li>
+        <li class="item">
+          <a class="link-menu" href="../index.html">Cerrar sesion</a>
+        </li>
       </ul>
     </div>
-    <div class="div-table"></div>
   </body>
 </html>

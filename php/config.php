@@ -9,4 +9,6 @@ try {
 } catch (PDOException $e) {
     exit("Error: " . $e->getMessage());
 }
+
+$conn = mysqli_connect('localhost','root','','db_escuela');
 ?>
