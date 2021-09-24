@@ -125,14 +125,7 @@
     border-bottom-style: double;
     border-color: #4CAF50;
 }
-.profile{
-    display: inline-block;
-    padding: 5px;
-    margin-left: 650px;
-    margin-top: -100px;border-radius: 50px;
-    border:2px solid #4CAF50;
 
-}
 .menu-select{
     margin-top: -20px;
     display: block;

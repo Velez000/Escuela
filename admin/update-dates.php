@@ -1,4 +1,5 @@
 <?php
+include_once '../php/users.php';
 session_start();
 
 if (!isset($_SESSION['user_id'])) {
@@ -16,6 +17,7 @@ if (!isset($_SESSION['user_id'])) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/styles-dist.css" />
+  <link rel="shortcut icon" href="../images/condu.ico" type="image/x-icon">
   <title>Actualizar datos</title>
 </head>
 
@@ -25,19 +27,8 @@ if (!isset($_SESSION['user_id'])) {
       <img class="logo-conduzcamos" src="../images/Logo-conduzcamos.png" alt="Logo-conduzcamos.png" />
     </div>
     <div class="div-information-basic">
-      <input class="name-user" type="text" readonly value="<?php
-                                                            $conn = mysqli_connect('localhost', 'root', '', 'db_escuela');
-                                                            if ($conn) {
-                                                              //echo "Conexion exitosa";
-                                                            } else {
-                                                              echo "Error en la conexion";
-                                                            }
-                                                            $query = mysqli_query($conn, "SELECT * FROM administrador ");
-                                                            while ($restultado = mysqli_fetch_array($query)) {
-                                                              echo $restultado['nombre'];
-                                                            }
-                                                            ?>" />
-      <img class="profile" src="../images/perfil.png" alt="Logo-como-perfil.png" />
+    <input class="name-user" type="text" readonly value="<?php echo $result_name_admin?>" />
+      <input class="Class-Date-current" type="text" readonly value="<?php echo $fecha_es?>"/>
     </div>
   </header>
   <div class="menu-select">

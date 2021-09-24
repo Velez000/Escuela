@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles-2-dist.css">
-    <title>Registro</title>
+    <link rel="shortcut icon" href="../images/condu.ico" type="image/x-icon">
+    <title>Restablecer contraseña</title>
 </head>
 <body>
     <form action="#">
