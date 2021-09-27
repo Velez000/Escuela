@@ -63,7 +63,8 @@ if(!isset($_SESSION['user_id2'])){
         <button class="buttom buttom-open">Evaluación</button>
         <div class="div-container">
           <div class="header-container">
-            <h1>Contenido curso A2</h1>
+            <h1>Evaluación
+               curso A2</h1>
             <button class="buttom2 buttom-close">X</button>
           </div>
           <section class="section">

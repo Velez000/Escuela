@@ -4,7 +4,6 @@ session_start();
 $name;
     $user = $_POST['select-user'];
     $email = $_POST['email'];
-    $email = $_POST['email'];
     $password = $_POST['password'];
     if($user == "Administrador"){
         $query = $connection->prepare("SELECT * FROM administrador WHERE correo=:email");
@@ -17,7 +16,7 @@ $name;
             header('Location: ../index.html');
         } else {
             if (password_verify($password, $result['password1'])) {
-                $_SESSION['user_id'] = $result['id_admin'];   
+                $_SESSION['user_id'] = $result['id'];   
                 header('Location: ../admin/home.php');
             } else {
                 header('Location: ../index.html');
