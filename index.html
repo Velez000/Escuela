@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,9 @@
     <link rel="shortcut icon" href="../images/condu.ico" type="image/x-icon">
     <title>Login</title>
 </head>
+
 <body>
-    <form action="php/autentication.php" id="form-primary" method="POST">
+    <form action="php/autentication" id="form-primary" method="POST">
         <div class="div-login">
             <img src="images/Logo-conduzcamos.png" alt="Logo-conduzcamos.png" class="logotype">
             <label for="select-user" class="label-information-basic">Tipo de usuario</label>
@@ -18,14 +20,15 @@
                 <option value="Aprendiz" class="option">Aprendiz</option>
             </select>
             <label for="email" class="label-information-basic">Correo</label>
-            <input type="text" class="class-email" name="email" id="email" placeholder="e-mail"  required/>
+            <input type="text" class="class-email" name="email" id="email" placeholder="e-mail" pattern="[a-z] {1,15}" required/>
             <label for="password" class="label-information-basic">Contraseña</label>
             <input type="password" name="password" id="password" class="password" placeholder="Contraseña" required/>
-            <a class="reset" href="restore.html">¿Olvidó su contraseña?</a>
+            <a class="reset" href="restore">¿Olvidó su contraseña?</a>
             <input type="submit" value="Ingresar" class="enter">
         </div>
         <div class="class-error"></div>
         <div class="class-correct"></div>
     </form>
 </body>
+
 </html>
