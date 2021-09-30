@@ -62,7 +62,7 @@ if (!isset($_SESSION['user_id'])) {
           <label for="label-lastname-2" class="labels">Segundo apellido</label>
           <input type="text" id="label-lastname-2" name="label-lastname-2" class="input-register">
           <label for="label-count" class="labels">Correo</label>
-          <input type="email" id="label-count" name="label-count" class="input-register">
+          <input type="email" id="label-count" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="label-count" class="input-register">
         </div>
         <div class="div-specific">
           <label for="label-id" class="labels">Documento</label>
@@ -72,9 +72,9 @@ if (!isset($_SESSION['user_id'])) {
           <label for="label-contact" class="labels">Telefono</label>
           <input type="tel" id="label-contact" name="label-contact" class="input-register">
           <label for="label-passwd-1" class="labels">Contraseña</label>
-          <input type="password" id="label-passwd-1" name="label-passwd-1" class="input-register">
+          <input type="password" id="label-passwd-1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="label-passwd-1" class="input-register">
           <label for="label-passwd-2" class="labels">Confirmar contraseña</label>
-          <input type="password" id="label-passwd-2" name="label-passwd-2" class="input-register">
+          <input type="password" id="label-passwd-2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="label-passwd-2" class="input-register">
         </div>
 
         <button type="submit" class="buttom-go" name="register" value="register">Registrar</button>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="shortcut icon" href="../images/condu.ico" type="image/x-icon">
     <title>Registro</title>
 </head>
+
 <body>
     <div class="div-controll">
         <form action="create.php" method="POST">
@@ -14,17 +16,18 @@
                 <h1 class="h1">Registro Administrador</h1>
                 <p class="class-ad">Por favor llenar todos los campos correctamente</p>
                 <div class="div-specific">
-                <label for="label-contact" class="labels">Nombre</label>
-                <input type="tel" id="name" name="name" class="input-register">
-                <label for="label-passwd-1" class="labels">Correo</label>
-                <input type="email" id="email" name="email" class="input-register">
-                <label for="label-passwd-2" class="labels">Contraseña</label>
-                <input type="password" id="password" name="password" class="input-register">
+                    <label for="label-contact" class="labels">Nombre</label>
+                    <input type="tel" id="name" name="name" class="input-register">
+                    <label for="label-passwd-1" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="labels">Correo</label>
+                    <input type="email" id="email" name="email" class="input-register">
+                    <label for="label-passwd-2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="labels">Contraseña</label>
+                    <input type="password" id="password" name="password" class="input-register">
                 </div>
-    
+
                 <button type="submit" name="register" value="register">Registrar</button>
 
-    
+
             </div>
 </body>
+
 </html>

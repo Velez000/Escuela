@@ -24,7 +24,7 @@ if (!isset($_SESSION['user_id2'])) {
 <body>
   <header class="header">
     <div class="logo">
-      <img class="logo-conduzcamos" src="../images/Logo-conduzcamos.png" alt="Logo-conduzcamos.png" />
+      <img class="logo-conduzcamos" src="../images/Logo-conduzcamos.png" alt="Logo-conduzcamos.svg" />
     </div>
     <div class="div-information-basic">
       <input class="name-user" type="text" readonly value="<?php echo $result_name?>"/>
@@ -52,36 +52,16 @@ if (!isset($_SESSION['user_id2'])) {
       <h2 class="h2">Curso A2</h2>
       <img class="curso-a2" src="../images/conduccion-A2.svg" alt="Curso-de-motos.svg" />
       <button class="buttom buttom-open">Ver contenido</button>
+
       <div class="div-container">
+
         <div class="header-container">
+
           <h2 class="h2">Contenido Curso A2</h2>
+            
           <button class="buttom2 buttom-close">X</button>
         </div>
-        <section class="section">
-          <h3>Adaptación al medio</h3>
-          <p class="introduction">Dar a conocer a los estudiantes, los elementos que conforman la vía, la dinámica de la accidentalidad en Colombia, la interrelación y normas que indican a la persona, la manera adecuada de transitarlas, tanto por su seguridad como por la de los demás. </p>
-          <a href="../docs/GAC-M02-V02 MANUAL DE ADAPTACION AL MEDIO.pdf#Adaptacion" class="link-pdf" target="_blank"><img src="../images/pdf.svg" alt="pdf.pdf" class="link-pdf-img"></a>
-        </section>
-        <section class="section">
-          <h3>Marco legal</h3>
-          <p class="introduction">Brindar al estudiante toda la información que comprende la normatividad del Código Nacional de Tránsito. </p>
-          <a href="../docs/GAC-M03-V02 MANUAL DE MARCOS LEGALES.pdf" class="link-pdf" target="_blank"><img src="../images/pdf.svg" alt="pdf.pdf" class="link-pdf-img"></a>
-        </section>
-        <section class="section">
-          <h3>Etica vial</h3>
-          <p class="introduction">Pendiente</p>
-          <a href="../docs/GAC-M06-V02 MANUAL DE ETICA VIAL Y PREVENCION DE CONFLICTOS.pdf" class="link-pdf" target="_blank"><img src="../images/pdf.svg" alt="pdf.pdf" class="link-pdf-img"></a>
-        </section>
-        <section class="section">
-          <h3>Técnicas de conducción</h3>
-          <p class="introduction">Aplicar una serie de técnicas, desde la manera correcta de sujetar el volante hasta la realización ordenada de una percepción de gestos que optimizan los movimientos y garantice la máxima precisión de éstos. </p>
-          <a href="../docs/GAC-M04-V02 MANUAL DE TECNICAS DE CONDUCCION.pdf" class="link-pdf" target="_blank"><img src="../images/pdf.svg" alt="pdf.pdf" class="link-pdf-img"></a>
-        </section>
-        <section class="section">
-          <h3>Mecánica</h3>
-          <p class="introduction">Entender el funcionamiento de un automóvil mediante una capacitación teórica, que permita una mejor comprensión de los distintos sistemas que lo componen, sus partes y el mantenimiento oportuno que se le debe realizar. </p>
-          <a href="../docs/GAC-M05-V02 MANUAL DE MECANICA BASICA.pdf" class="link-pdf" target="_blank"><img src="../images/pdf.svg" alt="pdf.pdf" class="link-pdf-img"></a>
-        </section>
+        
       </div>
     </div>
     <div class="my-courses course-2">
