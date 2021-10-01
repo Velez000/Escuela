@@ -27,8 +27,8 @@ if (!isset($_SESSION['user_id2'])) {
       <img class="logo-conduzcamos" src="../images/Logo-conduzcamos.png" alt="Logo-conduzcamos.svg" />
     </div>
     <div class="div-information-basic">
-      <input class="name-user" type="text" readonly value="<?php echo $result_name?>"/>
-      <input class="Class-Date-current" type="text" readonly value="<?php echo $fecha_es?>"/>
+      <input class="name-user" type="text" readonly value="<?php echo $result_name ?>" />
+      <input class="Class-Date-current" type="text" readonly value="<?php echo $fecha_es ?>" />
     </div>
   </header>
   <div class="menu-select">
@@ -56,12 +56,46 @@ if (!isset($_SESSION['user_id2'])) {
       <div class="div-container">
 
         <div class="header-container">
-
           <h2 class="h2">Contenido Curso A2</h2>
-            
           <button class="buttom2 buttom-close">X</button>
+          <section class="section section-a1">
+            <h1 class="section-h1">Adaptacion al medio</h1>
+            <p class="p">Dar a conocer a los estudiantes, los elementos que conforman la vía, la dinámica de la
+              accidentalidad en Colombia, la interrelación y normas que indican a la persona, la manera
+              adecuada de transitarlas, tanto por su seguridad como por la de los demás.</p>
+              <a href="">Ver más</a>
+            </section>
+          <section class="section section-a2">
+
+            <h1 class="section-h1">Marco legal</h1>
+            <p class="p">Brindar al estudiante toda la información que comprende la normatividad del Código Nacional de
+              Tránsito.</p>
+             
+          </section>
+          <section class="section section-a3">
+
+            <h1 class="section-h1">Etica vial</h1>
+            <p class="p">Brindar los fundamentos y valores de la humanidad para impartirlos en las carreteras nacionales e internacionales</p>
+            <a href="content.html">Ver más</a>
+          </section>
+          <section class="section section-a4">
+
+            <h1 class="section-h1">Técnicas de conducción</h1>
+            <p class="p">Aplicar una serie de técnicas, desde la manera correcta de sujetar el volante hasta la realización
+              ordenada de una percepción de gestos que optimizan los movimientos y garantice la máxima
+              precisión de éstos.</p>
+              <a href="content.html">Ver más</a>
+          </section>
+          <section class="section section-a5">
+
+            <h1 class="section-h1">Mécanica</h1>
+            <p class="p">Entender el funcionamiento de un automóvil mediante una capacitación teórica, que permita una
+              mejor comprensión de los distintos sistemas que lo componen, sus partes y el mantenimiento
+              oportuno que se le debe realizar.</p>
+              <a href="content.html">Ver más</a>
+          </section>
         </div>
-        
+
       </div>
     </div>
     <div class="my-courses course-2">

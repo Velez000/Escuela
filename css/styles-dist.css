@@ -248,6 +248,32 @@
         border-radius: 90px;
     }
     
+    .section {
+        display: inline-block;
+        -webkit-columns: 4 190px;
+           -moz-columns: 4 190px;
+                columns: 4 190px;
+        margin-top: 1em;
+        margin-left: 1.5em;
+        width: 185px;
+        height: 300px;
+        border: 2px solid #4CAF50;
+        border-radius: 20px;
+    }
+    
+    .section-h1 {
+        color: #1397CD;
+        font-size: 18px;
+    }
+    
+    .section>p {
+        padding: 2px;
+        min-height: 130px;
+        max-height: 130px;
+        text-align: left;
+        overflow-y: scroll;
+    }
+    
     .div-table {
         margin-top: -200px;
         margin-left: 300px;
@@ -267,7 +293,6 @@
         background-color: #fff;
         border: 2px solid #1397CD;
         border-radius: 10px;
-        overflow-y: scroll;
     }
     
     .container2 {
