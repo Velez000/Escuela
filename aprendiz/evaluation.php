@@ -1,57 +1,7 @@
 <?php
-include_once '../php/users.php';
-session_start();
- 
-if(!isset($_SESSION['user_id2'])){
-    header('Location: ../index.html');
-    exit;
-} else {
-    // Show users the page!
-}
+  include('../aprendiz/base.php');
 ?>
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles-dist.css" />
-    <link rel="shortcut icon" href="../images/condu.ico" type="image/x-icon">
-    <title>Evaluación Aprendiz</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="logo">
-        <img
-          class="logo-conduzcamos"
-          src="../images/Logo-conduzcamos.png"
-          alt="Logo-conduzcamos.png"
-        />
-      </div>
-      <div class="div-information-basic">
-      <input class="name-user" type="text" readonly value="<?php echo $result_name?>"/>
-      <input class="Class-Date-current" type="text" readonly value="<?php echo $fecha_es?>"/>
-      </div>
-    </header>
-    <div class="menu-select">
-      <ul class="list">
-        <li class="item">
-          <a class="link-menu" href="../aprendiz/home.php">Mis cursos</a>
-        </li>
-        <li class="item">
-          <a class="link-menu" href="../aprendiz/evaluation.php"
-            >Evaluaciones</a
-          >
-        </li>
-        <li class="item">
-          <a class="link-menu" href="../aprendiz/rating.php">Calificaciones</a>
-        </li>
-        <li class="item">
-          <a class="link-menu" href="../index.html">Cerrar sesion</a>
-        </li>
-      </ul>
-    </div>
     <div class="courses">
       <div class="my-courses course-1">
         <h2 class ="h2">Curso A2</h2>
@@ -67,28 +17,7 @@ if(!isset($_SESSION['user_id2'])){
                curso A2</h1>
             <button class="buttom2 buttom-close">X</button>
           </div>
-          <section class="section">
-              <h1>Manejo defensivo</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis hic ipsa autem molestiae maxime debitis repellendus pariatur, ratione nesciunt officia eum? Repellendus debitis, harum recusandae consectetur fugit iusto quidem!</p>
-            </section>
-            <section class="section">
-              <h1>Prueba teorico-practica</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis hic ipsa autem molestiae maxime debitis repellendus pariatur, ratione nesciunt officia eum? Repellendus debitis, harum recusandae consectetur fugit iusto quidem!</p>
-            </section>
-            <section class="section">
-              <h1>Tecnicas de conducción</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis hic ipsa autem molestiae maxime debitis repellendus pariatur, ratione nesciunt officia eum? Repellendus debitis, harum recusandae consectetur fugit iusto quidem!</p>
-            </section>
-            <section class="section">
-              <h1>Marco legal</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis hic ipsa autem molestiae maxime debitis repellendus pariatur, ratione nesciunt officia eum? Repellendus debitis, harum recusandae consectetur fugit iusto quidem!</p>
-            </section>
-            <section class="section">
-              <h1>Adaptaciones a la via </h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis hic ipsa autem molestiae maxime debitis repellendus pariatur, ratione nesciunt officia eum? Repellendus debitis, harum recusandae consectetur fugit iusto quidem!</p>
-            </section>
-          </p>
-          
+        
         </div>
       </div>
       <div class="my-courses course-2">

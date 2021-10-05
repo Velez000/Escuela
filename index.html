@@ -23,7 +23,7 @@
             <label for="email" class="label-information-basic">Correo</label>
             <input type="text" class="content-information" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="e-mail" required/>
             <label for="password" class="label-information-basic">Contraseña</label>
-            <input type="password" name="password" id="password" class="content-information" placeholder="Contraseña" required/>
+            <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="content-information" placeholder="Contraseña" required/>
             <a class="reset" href="restore">¿Olvidó su contraseña?</a>
             <input type="submit" value="Ingresar" class="enter">
         </div>
