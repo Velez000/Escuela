@@ -46,4 +46,5 @@ if (!isset($_SESSION['user_id'])) {
         <a class="link-menu" href="../php/deleted.php">Cerrar sesion</a>
       </li>
     </ul>
+ 
   </div>

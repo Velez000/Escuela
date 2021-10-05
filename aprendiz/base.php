@@ -47,3 +47,6 @@ if (!isset($_SESSION['user_id2'])) {
       </li>
     </ul>
   </div>
+  <div class="imagen-volante">
+  <img src="../images/hola volante.gif" alt="" class="volante">
+  </div>
