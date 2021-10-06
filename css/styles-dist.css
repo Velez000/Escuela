@@ -1,393 +1,425 @@
-    /* Estilo del login */
-    
-    .div-login {
-        display: block;
-        width: 50%;
-        height: 85%;
-        margin-top: 1em;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 2em;
-        padding-bottom: 1.5em;
-        border: 2px solid black;
-        border-color: #1397CD;
-        border-radius: 10px;
-    }
-    
-    .logotype {
-        display: block;
-        margin-top: 0.4em;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .label-information-basic {
-        text-align: center;
-        margin-top: 1.5em;
-        display: block;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 24px;
-    }
-    
-    .content-information {
-        display: block;
-        margin-top: 1em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: none;
-        border-bottom-style: solid;
-        border-color: #7AB64D;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 18px;
-        text-align: center;
-    }
-    
-    .reset {
-        display: block;
-        text-decoration: none;
-        margin-top: 15px;
-        color: #7AB64D;
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: center;
-    }
-    
-    .enter {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        padding: 10px;
-        border-color: #7AB64D;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 22px;
-        border-radius: 50px;
-        cursor: pointer;
-    }
-    /*Menú*/
-    
-    .header {
-        position: relative;
-        margin: -8px;
-        height: 110px;
-        background-color: #1397CD;
-    }
-    
-    .logo {
-        width: 30%;
-        height: 110px;
-        margin-left: 3.3em;
-        background-color: #fff;
-        -webkit-transform: skew(140deg);
-                transform: skew(140deg);
-    }
-    
-    .logo-conduzcamos {
-        padding: 15px;
-        margin-left: 30px;
-        width: 80%;
-        -webkit-transform: skew(40deg);
-                transform: skew(40deg);
-    }
-    
-    .div-information-basic {
-        display: block;
-        margin-left: 40%;
-        margin-top: -100px;
-    }
-    
-    .name-user {
-        display: block;
-        height: 50px;
-        width: 90%;
-        margin-right: 10px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 36px;
-        background-color: #1397CD;
-        border-style: none;
-        border-bottom-style: double;
-        border-color: #4CAF50;
-    }
-    
-    .Class-Date-current {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 20px;
-        width: 60%;
-        border: none;
-        background-color: #1397CD;
-    }
-    
-    .menu-select {
-        display: block;
-        background-color: #1397CD;
-    }
-    
-    .list {
-        margin-left: -48px;
-        background-color: #fff;
-    }
-    
-    .item {
-        list-style: none;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 24px;
-        border-style: none;
-        padding: 8px;
-        width: 200px;
-        border-bottom-style: solid;
-        border-color: #fff;
-        background-color: #1397CD;
-        border-radius: 20px;
-    }
-    
-    .link-menu {
-        text-decoration: none;
-        margin: 0px;
-        padding: 0px;
-        color: black;
-    }
-    /*Contenedor de cursos*/
-    
-    .courses {
-        display: block;
-        margin-left: 250px;
-        margin-top: -450px;
-        height: 25em;
-        -webkit-columns: 4 100px;
-           -moz-columns: 4 100px;
-                columns: 4 100px;
-        border: 2px solid #1397CD;
-        padding: 10px;
-        border-radius: 30px;
-    }
-    
-    .course-1 {
-        position: absolute;
-        background-color: #fff;
-        border: 2px solid #7AB64D;
-        width: 15%;
-        height: 50%;
-        margin-left: 3rem;
-        border-radius: 60px;
-    }
-    
-    .h2,
-    .p {
-        color: black;
-        text-align: center;
-    }
-    
-    .course-2 {
-        position: absolute;
-        background-color: #fff;
-        border: 2px solid #7AB64D;
-        width: 16%;
-        height: 50%;
-        margin-left: 18rem;
-        border-radius: 60px;
-    }
-    
-    .course-3 {
-        position: absolute;
-        background-color: #fff;
-        border: 2px solid #7AB64D;
-        width: 16%;
-        height: 50%;
-        margin-left: 35rem;
-        border-radius: 60px;
-    }
-    
-    .course-4 {
-        position: absolute;
-        background-color: #fff;
-        border: 2px solid #7AB64D;
-        width: 16%;
-        height: 50%;
-        margin-left: 51rem;
-        border-radius: 60px;
-    }
-    
-    .curso-a2 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 2px solid #7AB64D;
-        width: 90%;
-        height: 40%;
-        border-radius: 90px;
-    }
-    
-    .curso-a3 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 2px solid #7AB64D;
-        width: 90%;
-        height: 40%;
-        border-radius: 90px;
-    }
-    
-    .curso-a4 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 2px solid #7AB64D;
-        width: 90%;
-        height: 40%;
-        border-radius: 90px;
-    }
-    
-    .curso-a5 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 2px solid #7AB64D;
-        width: 90%;
-        height: 40%;
-        border-radius: 90px;
-    }
-    
-    .div-table {
-        margin-top: -200px;
-        margin-left: 300px;
-        width: 800px;
-        height: 470px;
-        border: 2px solid #1397CD;
-    }
-    
-    .contentA2 {
-        display: none;
-        border: 2px solid black;
-        background-color: white;
-        margin-left: 250px;
-        margin-top: -450px;
-        width: 65em;
-        height: 30em;
-    }
-    
-    .volante {
-        display: inline-block;
-        width: 250px;
-        height: 250px;
-        margin-left: -10px;
-    }
-    
-    .buttom {
-        display: block;
-        padding: 6px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 16px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        border: 2px solid #4CAF50;
-        background-color: #fff;
-        cursor: pointer;
-    }
-    
-    .buttom2 {
-        display: block;
-        padding: 8px;
-        margin-top: -60px;
-        margin-left: 950px;
-        background-color: red;
-        width: 50px;
-        border: none;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        border-radius: 60px;
-        cursor: pointer;
-    }
-    
-    .div-register {
-        display: block;
-        margin-top: -215px;
-        margin-left: 350px;
-        width: 800px;
-        height: 500px;
-        border: 2px solid #1397CD;
-    }
-    
-    .h1 {
-        margin-top: 10px;
-        color: #1397CD;
-        text-align: center;
-    }
-    
-    .image {
-        display: block;
-        width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-    }
-    
-    .class-ad {
-        border-top: 2px solid #1397CD;
-        width: 100%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 16px;
-        font-weight: bold;
-        background-color: aliceblue;
-        text-align: center;
-        border-bottom: 2px solid #1397CD;
-    }
-    
-    .div-general {
-        position: relative;
-        margin-left: 5px;
-        height: 350px;
-        width: 48%;
-    }
-    
-    .div-specific {
-        margin-top: -353px;
-        position: relative;
-        display: block;
-        height: 350px;
-        margin-right: 5px;
-        margin-left: auto;
-        width: 48%;
-    }
-    
-    .labels {
-        display: block;
-        text-align: center;
-        font-size: 20px;
-        padding: 2px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    .input-register {
-        width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border-style: none;
-        border-bottom-style: solid;
-        border-color: #7AB64D;
-        color: black;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 16px;
-    }
-    
-    .buttom-go {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -10px;
-        padding: 5px;
-        background-color: #fff;
-        border-style: solid;
-        border-color: #7AB64D;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 18px;
-        font-weight: bold;
-        border-radius: 10px;
-        cursor: pointer;
-    }
+/* Estilo del login */
+
+.div-login {
+    display: block;
+    width: 50%;
+    height: 85%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    border: 2px solid black;
+    border-color: #1397cd;
+    border-radius: 10px;
+}
+
+.logotype {
+    display: block;
+    margin-top: 0.4em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-information-basic {
+    text-align: center;
+    margin-top: 1.5em;
+    display: block;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+.content-information {
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #7ab64d;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.reset {
+    display: block;
+    text-decoration: none;
+    margin-top: 15px;
+    color: #7ab64d;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.enter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-color: #7ab64d;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+/*Menú*/
+
+.header {
+    position: relative;
+    margin: -8px;
+    height: 110px;
+    background-color: #1397cd;
+}
+
+.logo {
+    width: 30%;
+    height: 110px;
+    margin-left: 3.3em;
+    background-color: #fff;
+    -webkit-transform: skew(140deg);
+            transform: skew(140deg);
+}
+
+.logo-conduzcamos {
+    padding: 15px;
+    margin-left: 30px;
+    width: 80%;
+    -webkit-transform: skew(40deg);
+            transform: skew(40deg);
+}
+
+.div-information-basic {
+    display: block;
+    margin-left: 40%;
+    margin-top: -100px;
+}
+
+.name-user {
+    display: block;
+    height: 50px;
+    width: 90%;
+    margin-right: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    background-color: #1397cd;
+    border-style: none;
+    border-bottom-style: double;
+    border-color: #4caf50;
+}
+
+.Class-Date-current {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    background-color: #1397cd;
+}
+
+.menu-select {
+    display: block;
+    background-color: #1397cd;
+}
+
+.list {
+    margin-left: -38px;
+    background-color: #fff;
+}
+
+.item {
+    list-style: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    border-style: none;
+    padding: 8px;
+    width: 200px;
+    border-bottom-style: solid;
+    border-color: #fff;
+    background-color: #1397cd;
+    border-radius: 20px;
+}
+
+.link-menu {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+
+/*Contenedor de cursos*/
+
+.courses {
+    display: block;
+    margin-left: 250px;
+    margin-top: -450px;
+    width: 45em;
+    height: 28em;
+    -webkit-columns: 4 100px;
+       -moz-columns: 4 100px;
+            columns: 4 100px;
+    border: 4px solid #1397cd;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.course-1 {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #7ab64d;
+    width: 15%;
+    height: 50%;
+    margin-left: 0.3rem;
+    border-radius: 60px;
+}
+
+.h2,
+.p {
+    color: black;
+    text-align: center;
+}
+
+.course-2 {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #7ab64d;
+    width: 16%;
+    height: 50%;
+    margin-left: 11.3rem;
+    border-radius: 60px;
+}
+
+.course-3 {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #7ab64d;
+    width: 16%;
+    height: 50%;
+    margin-left: 23rem;
+    border-radius: 60px;
+}
+
+.course-4 {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #7ab64d;
+    width: 16%;
+    height: 50%;
+    margin-left: 34.7rem;
+    border-radius: 60px;
+}
+
+.img-course {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #7ab64d;
+    width: 90%;
+    height: 40%;
+    border-radius: 90px;
+}
+
+.div-table {
+    margin-top: -200px;
+    margin-left: 300px;
+    width: 800px;
+    height: 470px;
+    border: 2px solid #1397cd;
+}
+
+.contentA2 {
+    display: none;
+    border: 3px solid #1397cd;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: -450px;
+    width: 45em;
+    height: 30em;
+    border-radius: 30px;
+}
+
+.volante {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-left: -10px;
+}
+
+.buttom {
+    display: block;
+    padding: 6px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid #4caf50;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.buttom2 {
+    display: block;
+    padding: 8px;
+    margin-top: -60px;
+    margin-left: 650px;
+    background-color: red;
+    width: 50px;
+    border: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.div-register {
+    display: block;
+    margin-top: -215px;
+    margin-left: 350px;
+    width: 800px;
+    height: 500px;
+    border: 2px solid #1397cd;
+}
+
+.h1 {
+    margin-top: 10px;
+    color: #1397cd;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.class-ad {
+    border-top: 2px solid #1397cd;
+    width: 100%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: aliceblue;
+    text-align: center;
+    border-bottom: 2px solid #1397cd;
+}
+
+.div-general {
+    position: relative;
+    margin-left: 5px;
+    height: 350px;
+    width: 48%;
+}
+
+.div-specific {
+    margin-top: -353px;
+    position: relative;
+    display: block;
+    height: 350px;
+    margin-right: 5px;
+    margin-left: auto;
+    width: 48%;
+}
+
+.labels {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.input-register {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #7ab64d;
+    color: black;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.buttom-go {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    padding: 5px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #7ab64d;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.title-content {
+    text-align: center;
+}
+
+.module-1 {
+    padding: 5px;
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 12em;
+    border: 2px solid #1397cd;
+    border-radius: 20px;
+    max-height: 14em;
+    overflow-y: scroll;
+}
+
+.link-content {
+    display: block;
+    padding: 6px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: #1397cd;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+}
+
+.modal-contenido {
+    background-color: aqua;
+    width: 60em;
+    height: 35em;
+    margin: 2em;
+    position: relative;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+#miModal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
