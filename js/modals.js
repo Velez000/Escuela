@@ -15,10 +15,16 @@ function incrementClick() {
     updateDisplay(++counterVal);
 }
 
+function decrementClick() {
+    counterVal = counterVal - 1;
+    updateDisplay(counterVal);
+}
+
 function updateDisplay(val) {
     console.log(val);
-    if (val == 1) {
-        click.style.background = "red";
+    if (val < 0 || val > 5) {
+        counterVal = 0;
+    } else if (val <= 1) {
         uno.style.display = "Block";
         dos.style.display = "none";
         tres.style.display = "none";
@@ -51,6 +57,5 @@ function updateDisplay(val) {
         tres.style.display = "none";
         cuatro.style.display = "none";
         cinco.style.display = "Block";
-
     }
 }

@@ -124,10 +124,9 @@ presenta mayor participación de fallecidos con un 13,96%. </p>
 acciones con el objeto de prevenir y reducir el número de lesionados y fallecidos ocasionados por
 accidentes de tránsito. </p>
     </div>
-    <div class="next-content">
-    <button onclick="incrementClick()" class="next-conten" id="next">Siguiente</button>
+    <button onclick="incrementClick()" class="next-content">Siguiente</button>
+    <button onclick="decrementClick()" class="next-content2">atras</button>
     <script src="../js/modals.js"></script>
-    </div>
 
   </div>
 </div>
