@@ -155,9 +155,9 @@
 
 .courses {
     display: block;
-    margin-left: 250px;
+    margin-left: 260px;
     margin-top: -450px;
-    width: 45em;
+    width: 62em;
     height: 28em;
     -webkit-columns: 4 100px;
        -moz-columns: 4 100px;
@@ -173,7 +173,7 @@
     border: 2px solid #7ab64d;
     width: 15%;
     height: 50%;
-    margin-left: 0.3rem;
+    margin-left: 2rem;
     border-radius: 60px;
 }
 
@@ -189,7 +189,7 @@
     border: 2px solid #7ab64d;
     width: 16%;
     height: 50%;
-    margin-left: 11.3rem;
+    margin-left: 16rem;
     border-radius: 60px;
 }
 
@@ -199,7 +199,7 @@
     border: 2px solid #7ab64d;
     width: 16%;
     height: 50%;
-    margin-left: 23rem;
+    margin-left: 31rem;
     border-radius: 60px;
 }
 
@@ -209,7 +209,7 @@
     border: 2px solid #7ab64d;
     width: 16%;
     height: 50%;
-    margin-left: 34.7rem;
+    margin-left: 46rem;
     border-radius: 60px;
 }
 
@@ -229,17 +229,6 @@
     width: 800px;
     height: 470px;
     border: 2px solid #1397cd;
-}
-
-.contentA2 {
-    display: none;
-    border: 3px solid #1397cd;
-    background-color: white;
-    margin-left: 250px;
-    margin-top: -450px;
-    width: 45em;
-    height: 30em;
-    border-radius: 30px;
 }
 
 .volante {
@@ -268,7 +257,7 @@
     display: block;
     padding: 8px;
     margin-top: -60px;
-    margin-left: 650px;
+    margin-left: 950px;
     background-color: red;
     width: 50px;
     border: none;
@@ -372,17 +361,6 @@
     text-align: center;
 }
 
-.module-1 {
-    padding: 5px;
-    margin-top: 2em;
-    margin-left: 2em;
-    width: 12em;
-    border: 2px solid #1397cd;
-    border-radius: 20px;
-    max-height: 14em;
-    overflow-y: scroll;
-}
-
 .link-content {
     display: block;
     padding: 6px;
@@ -399,11 +377,12 @@
 }
 
 .modal-contenido {
-    background-color: aqua;
-    width: 60em;
+    background-color: white;
+    border: 2px solid #4caf50;
+    border-radius: 30px;
+    width: 80em;
     height: 35em;
     margin: 2em;
-    position: relative;
 }
 
 .modal {
@@ -422,4 +401,74 @@
 #miModal:target {
     opacity: 1;
     pointer-events: auto;
+}
+
+.contentA2 {
+    display: none;
+    border: 3px solid #1397cd;
+    background-color: white;
+    margin-left: 260px;
+    margin-top: -450px;
+    width: 64em;
+    height: 40em;
+    border-radius: 30px;
+}
+
+.modules {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 2em;
+    margin-left: 6em;
+    width: 12em;
+    border: 2px solid #1397cd;
+    border-radius: 20px;
+    max-height: 14em;
+    overflow-y: scroll;
+}
+
+.module-4 {
+    margin-left: 14em;
+}
+
+.module-5 {
+    margin-left: 10em;
+}
+
+.subtitle {
+    display: block;
+    margin-left: 40%;
+    margin-top: -30px;
+}
+
+.buttom-close-modal {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    background-color: red;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 96%;
+    margin-top: 5px;
+}
+
+.tlp {
+    width: 50em;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: all 6s;
+    transition: all 6s;
+}
+
+.next-content {
+    font-size: 24px;
+    position: absolute;
+    margin-top: 30%px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: all 6000ms;
+    transition: all 6000ms;
 }
