@@ -3,7 +3,6 @@
     session_start();
    
 if (isset($_POST['register'])) {
-   
     $name1 = $_POST['label-firstname'];
     $name2 = $_POST['label-secondname'];
     $last_name1 = $_POST['label-lastname-1'];
@@ -14,6 +13,12 @@ if (isset($_POST['register'])) {
     $tel = $_POST['label-contact'];
     $password1 = $_POST['label-passwd-1'];
     $password2 = $_POST['label-passwd-2'];
+    $a2 = $_POST['checkbox1'];
+    $b1 = $_POST['checkbox2'];
+    $c1 = $_POST['checkbox3'];
+    $mtc = $_POST['checkbox4'];
+
+    $categorias = $a2.$b1.$c1.$mtc;
 
     if($password1 == $password2){
     $password_hash1 = password_hash($password1, PASSWORD_BCRYPT);
@@ -30,12 +35,13 @@ if (isset($_POST['register'])) {
     }
  
     if ($query->rowCount() == 0) {
-        $query = $connection->prepare("INSERT INTO aprendiz(id_apren,nombre_apren,correo,fecha_creacion,password_apren) VALUES (:documento,:name,:email,:fecha,:password_hash1)");
-        $query->bindParam("documento", $documento, PDO::PARAM_STR);
+        $query = $connection->prepare("INSERT INTO aprendiz(id_apren,nombre_apren,correo,fecha_creacion,password_apren,categorias) VALUES (:documento,:name,:email,:fecha,:password_hash1,:categorias)");
+        $query->bindParam("documento", $documento, PDO::PARAM_INT);
         $query->bindParam("name", $name, PDO::PARAM_STR);
         $query->bindParam("email", $email, PDO::PARAM_STR);
         $query->bindParam("fecha", $fecha, PDO::PARAM_STR);
         $query->bindParam("password_hash1", $password_hash1, PDO::PARAM_STR);
+        $query->bindParam("categorias", $categorias, PDO::PARAM_STR);
         $result = $query->execute();
  
         if ($result) {

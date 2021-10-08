@@ -8,10 +8,8 @@ include('../aprendiz/base.php');
     <h2 class="h2">Curso A2</h2>
     <img class="img-course" src="../images/conduccion-A2.svg" alt="Curso-de-motos.svg" />
     <button class="buttom buttom-open">Ver contenido</button>
-    <!-- Contenido del A2-->
-    <!--Fin del contenido-->
   </div>
-
+  
   <div class="my-courses course-2">
     <h2 class="h2">Curso B1</h2>
     <img class="img-course" src="../images/conduccion-B1.svg" alt="Curso-de-vehiculos-particulares.svg" />

@@ -1,12 +1,22 @@
 <?php
-include_once '../php/users.php';
 session_start();
+
 
 if (!isset($_SESSION['user_id2'])) {
   header('Location: ../index.html');
   exit;
 } else {
-  // Error!
+  $conn = mysqli_connect('localhost', 'root', '', 'db_escuela');
+  $query = mysqli_query($conn, "SELECT * FROM aprendiz where id_apren =  " .$_SESSION['user_id2']);
+  while ($resultado = mysqli_fetch_array($query)) {
+      $result_name = $resultado['nombre_apren'];
+      $result_cat = $resultado['categorias'];
+  }
+  date_default_timezone_set('UTC');                                                               
+  setlocale(LC_TIME, 'spanish');
+  $fecha=time();
+  $fecha_es= strtotime($fecha);
+  $fecha_es=strftime("%B  %d del %Y", $fecha);
 }
 ?>
 <!DOCTYPE html>
@@ -30,6 +40,7 @@ if (!isset($_SESSION['user_id2'])) {
     <div class="div-information-basic">
       <input class="name-user" type="text" readonly value="<?php echo $result_name ?>" />
       <input class="Class-Date-current" type="text" readonly value="<?php echo $fecha_es ?>" />
+      <input type="text" id="category" readonly value="<?php echo $result_cat ?>">
     </div>
   </header>
   <div class="menu-select">

@@ -29,6 +29,14 @@
           <input type="password" id="label-passwd-1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="label-passwd-1" class="input-register">
           <label for="label-passwd-2" class="labels">Confirmar contraseña</label>
           <input type="password" id="label-passwd-2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="label-passwd-2" class="input-register">
+          <div class="select-courses">
+          <label for="checka2" class="labels2"><input type="checkbox" name="checkbox1" id="checka2" value="A2">Curso A2</label>
+          <label for="checkb1" class="labels2"><input type="checkbox" name="checkbox2" id="checkb1" value="B1">Curso B1</label>
+          <label for="checkc1" class="labels2"><input type="checkbox" name="checkbox3" id="checkc1" value="C1">Curso C1</label>
+          <label for="checkmtc" class="labels2"><input type="checkbox" name="checkbox4" id="checkmtc" value="Montacargas">Curso Montacargas</label>
+        
+          </div>
+
         </div>
 
         <button type="submit" class="buttom-go" name="register" value="register">Registrar</button>

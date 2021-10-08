@@ -1,13 +1,24 @@
 <?php
-include_once '../php/users.php';
 session_start();
+
 
 if (!isset($_SESSION['user_id'])) {
   header('Location: ../index.html');
   exit;
 } else {
-  // Show users the page!
+  $conn = mysqli_connect('localhost', 'root', '', 'db_escuela');
+  $query2 = mysqli_query($conn, "SELECT * FROM administrador where id = ".$_SESSION['user_id']);
+  while ($restultado2 = mysqli_fetch_array($query2)) {
+  $result_name_admin = $restultado2['nombre'];
+ }
+
 }
+date_default_timezone_set('UTC');
+                                                                
+setlocale(LC_TIME, 'spanish');
+$fecha=time();
+$fecha_es= strtotime($fecha);
+$fecha_es=strftime("%B  %d del %Y", $fecha);
 ?>
 <!DOCTYPE html>
 <html lang="es">
