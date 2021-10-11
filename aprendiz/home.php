@@ -187,4 +187,5 @@ accidentes de tránsito. </p>
 </body>
 
 </html>
+<script src="../js/app.js"></script>
 <script src="../js/index.js"></script>
