@@ -1,8 +1,8 @@
-// let openModel = document.querySelector('.buttom-open');
-// let courses = document.querySelector('.courses');
-// let close = document.querySelector('.buttom2');
+// var openModel = document.querySelector('.buttom-open');
+// var courses = document.querySelector('.courses');
+// var close = document.querySelector('.buttom2');
 
-// let contentA2 = document.querySelector('.contentA2');
+// var contentA2 = document.querySelector('.contentA2');
 
 // if (openModel) {
 //     openModel.addEventListener('click', () => {
@@ -16,4 +16,5 @@
 //         courses.style.display = "block";
 //         contentA2.style.display = "none";
 //     });
+
 // }

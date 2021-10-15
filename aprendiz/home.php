@@ -20,15 +20,13 @@ include('../aprendiz/base.php');
   <div class="my-courses course-3">
     <h2 class="h2">Curso C1</h2>
     <img class="img-course" src="../images/conduccion-C1.svg" alt="Curso-de-vehiculos-publicos.svg" />
-    <button class="buttom buttom-open2">Ver contenido</button>
-
-    <script src="../js/index.js"></script>
+    <button class="buttom buttom-open3">Ver contenido</button>
   </div>
 
   <div class="my-courses course-4">
     <h2 class="h2">Curso Montacargas</h2>
     <img class="img-course" src="../images/montacargs.svg" alt="Curso-de-montacargas.svg" />
-    <button class="buttom buttom-open2">Ver contenido</button>
+    <button class="buttom buttom-open4">Ver contenido</button>
   </div>
 </div>
 
@@ -187,5 +185,5 @@ accidentes de tránsito. </p>
 </body>
 
 </html>
+<script src="../js/modals.js"></script>
 <script src="../js/app.js"></script>
-<script src="../js/index.js"></script>
