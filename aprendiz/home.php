@@ -9,7 +9,7 @@ include('../aprendiz/base.php');
     <img class="img-course" src="../images/conduccion-A2.svg" alt="Curso-de-motos.svg" />
     <button class="buttom buttom-open">Ver contenido</button>
   </div>
-  
+
   <div class="my-courses course-2">
     <h2 class="h2">Curso B1</h2>
     <img class="img-course" src="../images/conduccion-B1.svg" alt="Curso-de-vehiculos-particulares.svg" />
@@ -77,48 +77,52 @@ include('../aprendiz/base.php');
       <h3>Adaptación al medio 1</h3>
       <h4>Tránsito de vehículos</h4>
       <p>Deben transitar obligatoriamente, por sus respectivos carriles, dentro
-las líneas de demarcación y atravesarlos solamente para efectuar maniobras de
-adelantamiento. Para efectuar dicha maniobra, el conductor debe anunciar su intención por
-medio de las luces direccionales con el fin de poner en peligro a los demás vehículos o
-peatones.</p>
+        las líneas de demarcación y atravesarlos solamente para efectuar maniobras de
+        adelantamiento. Para efectuar dicha maniobra, el conductor debe anunciar su intención por
+        medio de las luces direccionales con el fin de poner en peligro a los demás vehículos o
+        peatones.
+      </p>
+      <img src="../images/vehiculos_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp2">
       <h2>Utilización de los carriles</h2>
       <p>los vehículos transitaran en, vía de sentido único de tránsito y vías
-de doble sentido de tránsito. La primera comprende, aquellas vías con velocidad reglamentada
-para sus carriles. La segunda, la compone: 2 carriles; por el carril de su derecha y utilizar con
-precaución el de la izquierda para maniobras de adelanto y respetar la señalización
-correspondiente. 3 carriles; los vehículos transitan por los carriles extremos que queden a su
-derecha y el carril central solo se utilizará en el sentido que señale la autoridad competente. 4
-carriles; los carriles exteriores se utilizarán para el tránsito ordinario de vehículos, y los interiores
-para maniobras de adelantamiento o circulación a mayor velocidad dentro de los límites
-establecidos.
-</p>
+        de doble sentido de tránsito. La primera comprende, aquellas vías con velocidad reglamentada
+        para sus carriles. La segunda, la compone: 2 carriles; por el carril de su derecha y utilizar con
+        precaución el de la izquierda para maniobras de adelanto y respetar la señalización
+        correspondiente. 3 carriles; los vehículos transitan por los carriles extremos que queden a su
+        derecha y el carril central solo se utilizará en el sentido que señale la autoridad competente. 4
+        carriles; los carriles exteriores se utilizarán para el tránsito ordinario de vehículos, y los interiores
+        para maniobras de adelantamiento o circulación a mayor velocidad dentro de los límites
+        establecidos.
+      </p>
+      <img src="../images/carriles_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp3">
       <h2>Retroceso en las vías públicas</h2>
       <p>No se puede realizar maniobras de retroceso en vías públicas,
-salvo en casos de estacionamiento o emergencias. Además, los vehículos no deben transitar
-sobre la aceras o zonas de seguridad o salvo en caso de entrada de garajes o lugares de
-estacionamiento.</p>
+        salvo en casos de estacionamiento o emergencias. Además, los vehículos no deben transitar
+        sobre la aceras o zonas de seguridad o salvo en caso de entrada de garajes o lugares de
+        estacionamiento.</p>
     </div>
     <div class="tlp temp4">
       <h2>Accidentalidad en Colombia </h2>
       <p>De acuerdo a las proyecciones de la cifra de fallecidos por accidentes de tránsito realizadas por el
-Observatorio Nacional de Seguridad Vial (ONSV), se estima que entre el 1 de diciembre de 2019 y el 7 de enero de 2020 podrían ocurrir alrededor de 840 fallecimientos en el territorio nacional. En
-2018 se presentaron 854 casos y en 2017 fueron 851. Asimismo, aproximadamente el 10% del
-total de fallecidos por siniestros viales cada año está relacionado con tres conductas de riesgo
-principales: exceso de velocidad, consumo de bebidas alcohólicas y conducción, y el irrespeto a
-las señales de tránsito.</p>
+        Observatorio Nacional de Seguridad Vial (ONSV), se estima que entre el 1 de diciembre de 2019 y el 7 de enero de 2020 podrían ocurrir alrededor de 840 fallecimientos en el territorio nacional. En
+        2018 se presentaron 854 casos y en 2017 fueron 851. Asimismo, aproximadamente el 10% del
+        total de fallecidos por siniestros viales cada año está relacionado con tres conductas de riesgo
+        principales: exceso de velocidad, consumo de bebidas alcohólicas y conducción, y el irrespeto a
+        las señales de tránsito.</p>
+        <img src="../images/seguridad_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp5">
-    <p>Los actores principales con mayor riesgo de mortalidad es el motociclista, este con una
-participación del 44%, el peatón con un 27%, el usuario de automóvil con un 8% y el ciclista con
-un 8% cifras proyectadas por el ONSV. Del mismo modo que, el departamento de Antioquia
-presenta mayor participación de fallecidos con un 13,96%. </p>
-<p>El Ministerio de Salud y Protección Social en conjunto con el Ministerio de Transporte, adelantan
-acciones con el objeto de prevenir y reducir el número de lesionados y fallecidos ocasionados por
-accidentes de tránsito. </p>
+      <p>Los actores principales con mayor riesgo de mortalidad es el motociclista, este con una
+        participación del 44%, el peatón con un 27%, el usuario de automóvil con un 8% y el ciclista con
+        un 8% cifras proyectadas por el ONSV. Del mismo modo que, el departamento de Antioquia
+        presenta mayor participación de fallecidos con un 13,96%. </p>
+      <p>El Ministerio de Salud y Protección Social en conjunto con el Ministerio de Transporte, adelantan
+        acciones con el objeto de prevenir y reducir el número de lesionados y fallecidos ocasionados por
+        accidentes de tránsito. </p>
     </div>
     <button onclick="incrementClick()" class="next-content">Siguiente</button>
     <button onclick="decrementClick()" class="next-content2">atras</button>

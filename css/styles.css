@@ -373,7 +373,9 @@
 }
 
 .modal-contenido {
-    background-color: white;
+    background: url(../images/fondo2022.svg);
+    background-size: 100%;
+    background-position-y: -200px;
     border: 2px solid #4caf50;
     border-radius: 30px;
     width: 80em;
@@ -450,10 +452,18 @@
 }
 
 .tlp {
+    background-color: white;
+    opacity: 0.8;
     width: 50em;
+    height: 25em;
     border: 3px solid black;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tlp-img {
+    margin-left: 30em;
+    width: 300px;
 }
 
 .next-content {
