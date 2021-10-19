@@ -13,16 +13,18 @@ cinco.style.display = "none";
 
 function incrementClick() {
     updateDisplay(++counterVal);
+
 }
 
 function decrementClick() {
-    counterVal = counterVal - 1;
-    updateDisplay(counterVal);
+    // counterVal = counterVal - 1;
+    updateDisplay(--counterVal);
 }
 
 function updateDisplay(val) {
-    if (val < 0 || val > 5) {
-        counterVal = 0;
+    if (val < 0 || val > 6) {
+        counterVal = 1;
+
     } else if (val <= 1) {
         uno.style.display = "Block";
         dos.style.display = "none";
@@ -56,5 +58,8 @@ function updateDisplay(val) {
         tres.style.display = "none";
         cuatro.style.display = "none";
         cinco.style.display = "Block";
+    } else {
+        counterVal = 0;
     }
+
 }

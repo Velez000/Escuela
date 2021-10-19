@@ -1,5 +1,42 @@
 /* Estilo del login */
 
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: auto;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+    text-align: justify;
+}
+
 .div-login {
     display: block;
     width: 50%;
@@ -437,9 +474,14 @@
 }
 
 .subtitle {
+    font-size: 32px;
+    width: 300px;
+    text-align: center;
     display: block;
-    margin-left: 40%;
+    margin-left: 38%;
     margin-top: -30px;
+    color: #1397cd;
+    background-color: #fff;
 }
 
 .buttom-close-modal {
@@ -458,37 +500,76 @@
 
 .tlp {
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.85;
     width: 50em;
     height: 25em;
-    border: 3px solid black;
+    border: 3px solid #1397cd;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .tlp-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -16em;
+    margin-left: 25em;
+    width: 380px;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+.tlp-img1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -16em;
+    margin-left: 25em;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.tlp-img2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1em;
     margin-left: 30em;
-    width: 300px;
+    width: 250px;
+    border-radius: 10px;
 }
 
-.next-content {
+.tlp>p {
+    width: 350px;
+}
+
+.btn {
     position: absolute;
     top: 22em;
     min-width: 8em;
+    background-color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 2px solid #1397cd;
+    color: #1397cd;
+    background-color: #fff;
+    cursor: pointer;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #1397cd;
+}
+
+.btn-next {
     margin-left: 18em;
-    background-color: white;
-    font-size: 24px;
-    position: absolute;
 }
 
-.next-content2 {
-    position: absolute;
-    top: 22em;
+.btn-back {
     margin-left: 26em;
-    min-width: 8em;
-    background-color: white;
-    font-size: 24px;
-    position: absolute;
 }
 
 .select-courses {
@@ -501,4 +582,9 @@
     display: inline-block;
     margin-left: 15px;
     font-size: 18px;
+}
+
+.p {
+    font-size: 18px;
+    text-align: left;
 }

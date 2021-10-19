@@ -39,31 +39,38 @@ include('../aprendiz/base.php');
   </section>
   <div class="modules module-1">
     <h2>Adaptación al medio</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
+    <p class="p">Dar a conocer a los estudiantes, los elementos que conforman la vía, la dinámica de la
+      accidentalidad en Colombia, la interrelación y normas que indican a la persona, la manera
+      adecuada de transitarlas, tanto por su seguridad como por la de los demás.</p>
     <a href="#miModal" class="link-content">Ver contenido</a>
   </div>
 
   <div class="modules module-2">
     <h2>Marco legal</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
+    <p class="p">Brindar al estudiante toda la información que comprende la normatividad del Código Nacional de
+      Tránsito.</p>
     <a href="#miModal" class="link-content">Ver contenido</a>
   </div>
 
   <div class="modules module-3">
     <h2>Etica vial</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
     <a href="#miModal" class="link-content">Ver contenido</a>
   </div>
 
   <div class="modules module-4">
     <h2>Técnicas de conducción</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
+    <p class="p">Aplicar una serie de técnicas, desde la manera correcta de sujetar el volante hasta la realización
+ordenada de una percepción de gestos que optimizan los movimientos y garantice la máxima
+precisión de éstos. </p>
     <a href="#miModal" class="link-content">Ver contenido</a>
   </div>
 
   <div class="modules module-5">
     <h2>Mecánica</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
+    <p class="p">Entender el funcionamiento de un automóvil mediante una capacitación teórica, que permita una
+mejor comprensión de los distintos sistemas que lo componen, sus partes y el mantenimiento
+oportuno que se le debe realizar. </p>
     <a href="#miModal" class="link-content">Ver contenido</a>
   </div>
 </div>
@@ -72,9 +79,8 @@ include('../aprendiz/base.php');
 <div id="miModal" class="modal">
   <div class="modal-contenido">
     <a href="#" class="buttom-close-modal">X</a>
-    <h2 class="subtitle">Adaptación al medio</h2>
+    <h2 class="subtitle">ADAPTACIÓN AL MEDIO</h2>
     <div class="tlp temp1">
-      <h3>Adaptación al medio 1</h3>
       <h4>Tránsito de vehículos</h4>
       <p>Deben transitar obligatoriamente, por sus respectivos carriles, dentro
         las líneas de demarcación y atravesarlos solamente para efectuar maniobras de
@@ -85,47 +91,41 @@ include('../aprendiz/base.php');
       <img src="../images/vehiculos_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp2">
-      <h2>Utilización de los carriles</h2>
-      <p>los vehículos transitaran en, vía de sentido único de tránsito y vías
+      <h4>Utilización de los carriles</h4>
+      <p>Los vehículos transitaran en, vía de sentido único de tránsito y vías
         de doble sentido de tránsito. La primera comprende, aquellas vías con velocidad reglamentada
         para sus carriles. La segunda, la compone: 2 carriles; por el carril de su derecha y utilizar con
         precaución el de la izquierda para maniobras de adelanto y respetar la señalización
-        correspondiente. 3 carriles; los vehículos transitan por los carriles extremos que queden a su
-        derecha y el carril central solo se utilizará en el sentido que señale la autoridad competente. 4
-        carriles; los carriles exteriores se utilizarán para el tránsito ordinario de vehículos, y los interiores
-        para maniobras de adelantamiento o circulación a mayor velocidad dentro de los límites
-        establecidos.
+        correspondiente.
       </p>
       <img src="../images/carriles_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp3">
-      <h2>Retroceso en las vías públicas</h2>
+      <h4>Retroceso en las vías públicas</h4>
       <p>No se puede realizar maniobras de retroceso en vías públicas,
         salvo en casos de estacionamiento o emergencias. Además, los vehículos no deben transitar
         sobre la aceras o zonas de seguridad o salvo en caso de entrada de garajes o lugares de
         estacionamiento.</p>
+      <img src="../images/parqueadero.svg" alt="estacionamiento.svg" class="tlp-img1">
+      <img src="../images/retrocedo-vias1.svg" alt="accidente.svg" class="tlp-img2">
     </div>
     <div class="tlp temp4">
-      <h2>Accidentalidad en Colombia </h2>
-      <p>De acuerdo a las proyecciones de la cifra de fallecidos por accidentes de tránsito realizadas por el
-        Observatorio Nacional de Seguridad Vial (ONSV), se estima que entre el 1 de diciembre de 2019 y el 7 de enero de 2020 podrían ocurrir alrededor de 840 fallecimientos en el territorio nacional. En
-        2018 se presentaron 854 casos y en 2017 fueron 851. Asimismo, aproximadamente el 10% del
-        total de fallecidos por siniestros viales cada año está relacionado con tres conductas de riesgo
-        principales: exceso de velocidad, consumo de bebidas alcohólicas y conducción, y el irrespeto a
-        las señales de tránsito.</p>
-        <img src="../images/seguridad_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
+      <h4>Accidentalidad en Colombia </h4>
+      <p>No se puede realizar maniobras de retroceso en vías públicas,
+        salvo en casos de estacionamiento o emergencias. Además, los vehículos no deben transitar
+        sobre la aceras o zonas de seguridad o salvo en caso de entrada de garajes o lugares de
+        estacionamiento.</p>
+      <img src="../images/accidentabilidad.svg" alt="accidentabilidad.svg" class="tlp-img">
     </div>
     <div class="tlp temp5">
       <p>Los actores principales con mayor riesgo de mortalidad es el motociclista, este con una
         participación del 44%, el peatón con un 27%, el usuario de automóvil con un 8% y el ciclista con
         un 8% cifras proyectadas por el ONSV. Del mismo modo que, el departamento de Antioquia
         presenta mayor participación de fallecidos con un 13,96%. </p>
-      <p>El Ministerio de Salud y Protección Social en conjunto con el Ministerio de Transporte, adelantan
-        acciones con el objeto de prevenir y reducir el número de lesionados y fallecidos ocasionados por
-        accidentes de tránsito. </p>
+      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
     </div>
-    <button onclick="incrementClick()" class="next-content">Siguiente</button>
-    <button onclick="decrementClick()" class="next-content2">atras</button>
+    <button onclick="incrementClick()" class="btn btn-next">Siguiente</button>
+    <button onclick="decrementClick()" class="btn btn-back">Retroceder</button>
     <script src="../js/modals.js"></script>
 
   </div>

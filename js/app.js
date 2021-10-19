@@ -71,7 +71,6 @@ if (coursesPrint == "A2") {
             courses.style.display = "block";
             contentA2.style.display = "none";
         });
-
     }
 
 } else if (coursesPrint == "B1C1") {
