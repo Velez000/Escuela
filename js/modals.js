@@ -4,15 +4,6 @@ var dos = document.querySelector('.temp2');
 var tres = document.querySelector('.temp3');
 var cuatro = document.querySelector('.temp4');
 var cinco = document.querySelector('.temp5');
-var seis = document.querySelector('.temp6');
-var siete = document.querySelector('.temp7');
-var ocho = document.querySelector('.temp8');
-var nueve = document.querySelector('.temp9');
-var diez = document.querySelector('.temp10');
-var once = document.querySelector('.temp11');
-var doce = document.querySelector('.temp12');
-var trece = document.querySelector('.temp13');
-var click = document.querySelector('#next');
 
 uno.style.display = "none";
 dos.style.display = "none";
@@ -73,3 +64,8 @@ function updateDisplay(val) {
     }
 
 }
+
+
+
+
+// modal2

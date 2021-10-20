@@ -132,6 +132,7 @@ oportuno que se le debe realizar. </p>
         participación del 44%, el peatón con un 27%, el usuario de automóvil con un 8% y el ciclista con
         un 8% cifras proyectadas por el ONSV. Del mismo modo que, el departamento de Antioquia
         presenta mayor participación de fallecidos con un 13,96%. </p>
+
       <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
     </div>
     <button onclick="incrementClick()" class="btn btn-next">Siguiente</button>
@@ -145,7 +146,7 @@ oportuno que se le debe realizar. </p>
   <div class="modal-contenido">
     <a href="#" class="buttom-close-modal">X</a>
     <h2 class="subtitle">MARCO LEGAL</h2>
-    <div class="tlp temp6 ">
+    <div class="tlp temp6">
       <h4>Código Nacional de Tránsito y sus reglamentaciones</h4>
       <p>Pendiente
       </p>
@@ -188,9 +189,9 @@ oportuno que se le debe realizar. </p>
       <p>Pendiente</p>
       <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
     </div>
-    <button onclick="incrementClick2()" class="btn btn-next">Siguiente</button>
-    <button onclick="decrementClick2()" class="btn btn-back">Retroceder</button>
-    <script src="../js/modal2.js"></script>
+    <button onclick="suma()" class="btn btn-next">Siguiente</button>
+    <button onclick="resta()" class="btn btn-back">Retroceder</button>
+
   </div>
 </div>
 
