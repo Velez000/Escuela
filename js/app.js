@@ -58,7 +58,6 @@ if (coursesPrint == "A2") {
     course2.style.display = "Block";
     course3.style.display = "Block";
     course4.style.display = "Block";
-
     if (openModel) {
         openModel.addEventListener('click', () => {
             courses.style.display = "none";

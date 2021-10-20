@@ -74,7 +74,7 @@ p {
     margin-right: auto;
     border-style: none;
     border-bottom-style: solid;
-    border-color: #7ab64d;
+    border-color: #4caf50;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 18px;
     text-align: center;
@@ -84,7 +84,7 @@ p {
     display: block;
     text-decoration: none;
     margin-top: 15px;
-    color: #7ab64d;
+    color: #4caf50;
     font-size: 20px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     text-align: center;
@@ -96,15 +96,12 @@ p {
     margin-right: auto;
     margin-top: 20px;
     padding: 10px;
-    border-color: #7ab64d;
+    border-color: #4caf50;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 22px;
     border-radius: 50px;
     cursor: pointer;
 }
-
-
-/*Menú*/
 
 .header {
     position: relative;
@@ -207,7 +204,7 @@ p {
 .course-1 {
     position: absolute;
     background-color: #fff;
-    border: 2px solid #7ab64d;
+    border: 2px solid #4caf50;
     width: 15%;
     height: 50%;
     margin-left: 2rem;
@@ -223,7 +220,7 @@ p {
 .course-2 {
     position: absolute;
     background-color: #fff;
-    border: 2px solid #7ab64d;
+    border: 2px solid #4caf50;
     width: 16%;
     height: 50%;
     margin-left: 16rem;
@@ -233,7 +230,7 @@ p {
 .course-3 {
     position: absolute;
     background-color: #fff;
-    border: 2px solid #7ab64d;
+    border: 2px solid #4caf50;
     width: 16%;
     height: 50%;
     margin-left: 31rem;
@@ -243,7 +240,7 @@ p {
 .course-4 {
     position: absolute;
     background-color: #fff;
-    border: 2px solid #7ab64d;
+    border: 2px solid #4caf50;
     width: 16%;
     height: 50%;
     margin-left: 46rem;
@@ -254,7 +251,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #7ab64d;
+    border: 2px solid #4caf50;
     width: 90%;
     height: 40%;
     border-radius: 90px;
@@ -295,14 +292,26 @@ p {
     padding: 8px;
     margin-top: -60px;
     margin-left: 950px;
-    background-color: red;
+    background-color: #4caf50;
     width: 50px;
-    border: none;
+    border: 1px solid black;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: bold;
     border-radius: 60px;
     cursor: pointer;
+}
+
+.buttom2:hover {
+    background-color: red;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.buttom-close-modal:hover {
+    background-color: red;
+    -webkit-transition: 1s all;
+    transition: 1s all;
 }
 
 .div-register {
@@ -372,7 +381,7 @@ p {
     text-align: center;
     border-style: none;
     border-bottom-style: solid;
-    border-color: #7ab64d;
+    border-color: #4caf50;
     color: black;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -386,7 +395,7 @@ p {
     padding: 5px;
     background-color: #fff;
     border-style: solid;
-    border-color: #7ab64d;
+    border-color: #4caf50;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -396,6 +405,7 @@ p {
 
 .title-content {
     text-align: center;
+    color: #1397cd;
 }
 
 .link-content {
@@ -411,6 +421,16 @@ p {
     margin-left: auto;
     width: 80%;
     margin-right: auto;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.link-content:hover {
+    background-color: white;
+    border: 2px solid #1397cd;
+    border-radius: 10px;
+    color: #1397cd;
+    font-weight: bold;
 }
 
 .modal-contenido {
@@ -437,7 +457,25 @@ p {
     transition: all 1s;
 }
 
+.modal2 {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
 #miModal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#miModal2:target {
     opacity: 1;
     pointer-events: auto;
 }
@@ -463,6 +501,13 @@ p {
     border-radius: 20px;
     max-height: 14em;
     overflow-y: scroll;
+    -webkit-transition: 2s all;
+    transition: 2s all;
+}
+
+.modules:hover {
+    color: #1397cd;
+    border: 2px solid #4caf50;
 }
 
 .module-4 {
@@ -488,9 +533,9 @@ p {
     color: black;
     display: inline-block;
     text-decoration: none;
-    background-color: red;
+    background-color: #4caf50;
     border: 2px solid black;
-    padding: 10px;
+    padding: 12px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 20px;
@@ -587,4 +632,8 @@ p {
 .p {
     font-size: 18px;
     text-align: left;
+}
+
+.prueba {
+    position: absolute;
 }

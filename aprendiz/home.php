@@ -1,7 +1,7 @@
 <?php
 include('../aprendiz/base.php');
 ?>
-
+<!-- Cursos -->
 <div class="courses">
 
   <div class="my-courses course-1">
@@ -30,13 +30,15 @@ include('../aprendiz/base.php');
   </div>
 </div>
 
-<!-- Contenido de los cursos-->
-
+<!-- Contenido del curso A2 -->
+ 
 <div class="contentA2">
   <section class="sectionA2">
     <h1 class="title-content">Contenido del curso A2</h1>
     <button class="buttom buttom2">X</button>
   </section>
+
+  <!-- Adaptacion al medio  -->
   <div class="modules module-1">
     <h2>Adaptación al medio</h2>
     <p class="p">Dar a conocer a los estudiantes, los elementos que conforman la vía, la dinámica de la
@@ -45,33 +47,41 @@ include('../aprendiz/base.php');
     <a href="#miModal" class="link-content">Ver contenido</a>
   </div>
 
+
+  <!-- Marco legal -->
   <div class="modules module-2">
     <h2>Marco legal</h2>
     <p class="p">Brindar al estudiante toda la información que comprende la normatividad del Código Nacional de
       Tránsito.</p>
-    <a href="#miModal" class="link-content">Ver contenido</a>
+    <a href="#miModal2" class="link-content">Ver contenido</a>
   </div>
 
+
+  <!-- Etica vial -->
   <div class="modules module-3">
     <h2>Etica vial</h2>
     <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
-    <a href="#miModal" class="link-content">Ver contenido</a>
+    <a href="#" class="link-content">Ver contenido</a>
   </div>
 
+
+  <!-- Tecnicas de conduccion -->
   <div class="modules module-4">
     <h2>Técnicas de conducción</h2>
     <p class="p">Aplicar una serie de técnicas, desde la manera correcta de sujetar el volante hasta la realización
 ordenada de una percepción de gestos que optimizan los movimientos y garantice la máxima
 precisión de éstos. </p>
-    <a href="#miModal" class="link-content">Ver contenido</a>
+    <a href="#" class="link-content">Ver contenido</a>
   </div>
 
+
+  <!-- Mecanica -->
   <div class="modules module-5">
     <h2>Mecánica</h2>
     <p class="p">Entender el funcionamiento de un automóvil mediante una capacitación teórica, que permita una
 mejor comprensión de los distintos sistemas que lo componen, sus partes y el mantenimiento
 oportuno que se le debe realizar. </p>
-    <a href="#miModal" class="link-content">Ver contenido</a>
+    <a href="#" class="link-content">Ver contenido</a>
   </div>
 </div>
 
@@ -98,7 +108,7 @@ oportuno que se le debe realizar. </p>
         precaución el de la izquierda para maniobras de adelanto y respetar la señalización
         correspondiente.
       </p>
-      <img src="../images/carriles_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
+      <img src="../images/carriles.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp3">
       <h4>Retroceso en las vías públicas</h4>
@@ -127,26 +137,65 @@ oportuno que se le debe realizar. </p>
     <button onclick="incrementClick()" class="btn btn-next">Siguiente</button>
     <button onclick="decrementClick()" class="btn btn-back">Retroceder</button>
     <script src="../js/modals.js"></script>
-
   </div>
 </div>
 
 <!--Contenido Marco legal-->
-<div id="miModal" class="modal">
+<div id="miModal2" class="modal">
   <div class="modal-contenido">
-    <a href="#">X</a>
-    <h2>Marco legal</h2>
-    <div class="temp">
-      <h3>Marco legal</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus similique maxime eius iste sint, odio doloremque, quaerat quod et numquam laboriosam. Perspiciatis quam ipsa totam quae obcaecati ipsam amet ad.</p>
+    <a href="#" class="buttom-close-modal">X</a>
+    <h2 class="subtitle">MARCO LEGAL</h2>
+    <div class="tlp temp6 ">
+      <h4>Código Nacional de Tránsito y sus reglamentaciones</h4>
+      <p>Pendiente
+      </p>
+      <img src="../images/vehiculos_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img prueba">
     </div>
-    <div class="temp2">Segundo click</div>
-    <div class="temp3">Tercer click</div>
+    <div class="tlp temp7">
+      <h4>Aspectos legales del tránsito </h4>
+      <p>Pendiente
+      </p>
+      <img src="../images/carriles.svg" alt="Vehiculos en la ciudad" class="tlp-img">
+    </div>
+    <div class="tlp temp8">
+      <h4>Documentos obligatorios </h4>
+      <p>Pendiente</p>
+      <img src="../images/parqueadero.svg" alt="estacionamiento.svg" class="tlp-img1">
+      <img src="../images/retrocedo-vias1.svg" alt="accidente.svg" class="tlp-img2">
+    </div>
+    <div class="tlp temp9">
+      <h4>Licencias, clasificación y requisitos</h4>
+      <p>Pendiente</p>
+      <img src="../images/accidentabilidad.svg" alt="accidentabilidad.svg" class="tlp-img">
+    </div>
+    <div class="tlp temp10">
+      <h4>Procedimientos jurídicos </h4>
+      <p>Pendiente</p>
+      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    </div>
+    <div class="tlp temp11">
+      <h4>Normas de salud ocupacional </h4>
+      <p>Pendiente</p>
+      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    </div>
+    <div class="tlp temp12">
+      <h4>Normas ambientales</h4>
+      <p>Pendiente</p>
+      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    </div>
+    <div class="tlp temp13">
+      <h4>Normas de convivencia </h4>
+      <p>Pendiente</p>
+      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    </div>
+    <button onclick="incrementClick2()" class="btn btn-next">Siguiente</button>
+    <button onclick="decrementClick2()" class="btn btn-back">Retroceder</button>
+    <script src="../js/modal2.js"></script>
   </div>
 </div>
 
 <!--Contenido Etica vial-->
-<div id="miModal" class="modal">
+<div id="miModal3" class="modal">
   <div class="modal-contenido">
     <a href="#">X</a>
     <h2>Etica vial </h2>
@@ -160,7 +209,7 @@ oportuno que se le debe realizar. </p>
 </div>
 
 <!--Contenido técnicas de conducción-->
-<div id="miModal" class="modal">
+<div id="miModal4" class="modal">
   <div class="modal-contenido">
     <a href="#">X</a>
     <h2>Técnicas de conducción</h2>
@@ -174,7 +223,7 @@ oportuno que se le debe realizar. </p>
 </div>
 
 <!--Contenido Mecánica-->
-<div id="miModal" class="modal">
+<div id="miModal5" class="modal">
   <div class="modal-contenido">
     <a href="#">X</a>
     <h2>Mecánica</h2>
