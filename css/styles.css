@@ -27,6 +27,13 @@ h4 {
     margin-left: 5px;
 }
 
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
 p {
     display: flex;
     font-size: 20px;
@@ -564,14 +571,14 @@ p {
     position: absolute;
     top: 22em;
     min-width: 8em;
-    background-color: white;
+    cursor: pointer;
+    transition: 1s all;
     font-size: 24px;
     border-radius: 10px;
     border: 2px solid #1397cd;
+    background-color: white;
     color: #1397cd;
     background-color: #fff;
-    cursor: pointer;
-    transition: 1s all;
 }
 
 .btn:hover {

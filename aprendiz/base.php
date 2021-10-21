@@ -55,10 +55,10 @@ if (!isset($_SESSION['user_id2'])) {
         <a class="link-menu" href="../aprendiz/rating.php">Calificaciones</a>
       </li>
       <li class="item">
-        <a class="link-menu" href="../index.html">Cerrar sesion</a>
+        <a class="link-menu" href="../php/deleted.php">Cerrar sesion</a>
       </li>
     </ul>
   </div>
   <div class="imagen-volante">
-  <img src="../images/hola volante.gif" alt="" class="volante">
+  <img src="../images/hola volante.gif" alt="Volante" class="volante">
   </div>
