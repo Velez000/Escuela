@@ -98,7 +98,7 @@ include('../aprendiz/base.php');
         medio de las luces direccionales con el fin de poner en peligro a los demás vehículos o
         peatones.
       </p>
-      <!-- <img src="../images/vehiculos_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img"> -->
+      <img src="../images/vehiculos_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp2">
       <h3>Utilización de los carriles</h3>
@@ -108,15 +108,14 @@ include('../aprendiz/base.php');
         precaución el de la izquierda para maniobras de adelanto y respetar la señalización
         correspondiente.
       </p>
-      <!-- <img src="../images/carriles.svg" alt="Vehiculos en la ciudad" class="tlp-img"> -->
+      <img src="../images/carriles.svg" alt="Vehiculos en la ciudad" class="tlp-img">
     </div>
     <div class="tlp temp3">
       <h3>Factores que intervienen en el transito </h3>
-      <p> <strong>Transito: </strong> Desplazamiento organizado de personas, animales y vehículos que se desplazan por una vía pública o privada abierta al público.</p>
-      <h4>Factor humano</h4>
-      <!-- <img src="" alt="Personas en la via"> -->
-      <h4>Factor vehicular</h4>
-      <!-- <img src="" alt="Vehiculos en la via"> -->
+      <strong>Transito: </strong> 
+      <p>Desplazamiento organizado de personas, animales y vehículos que se desplazan por una vía pública o privada abierta al público.</p>
+      <h4 class="h4f">Factor humano y vehicular</h4>
+      <img src="../images/peatones.svg" alt="Personas en la via" class="tlp-img img1">
     </div>
     <div class="tlp temp4">
       <h3>Factor humano</h3>
@@ -125,55 +124,65 @@ include('../aprendiz/base.php');
       <li class="articles"> <a href="https://leyes.co/codigo_nacional_de_transito_terrestre/92.htm" class="link-external" target="_blank"> <strong>Pasajero: </strong> Aticulo 92 del código nacional de tránsito</a></li>
       <li class="articles"> <a href="https://principal.notinet.com.co/codigos/capitulos.php?id=3618" class="link-external" target="_blank"><strong>Conductor: </strong> Aticulos 60 - 80 del código nacional de tránsito</a></li>
 
-      <!-- <img src="../images/accidentabilidad.svg" alt="accidentabilidad.svg" class="tlp-img"> -->
+      <img src="../images/actores de la via.svg" alt="Actores de la via.svg" class="tlp-img img2">
     </div>
     <div class="tlp temp5">
       <h3>Factor vehicular</h3>
-      <strong>Vehículos: </strong>
+      <h4>Vehículos: </h4>
       <p>Todo aparato montado sobre ruedas con o sin motor que permite el transporte de personas o cosas de un lugar a otro. </p>
-      <h4>Vehículo no automotor</h4>
-      <!-- <img src="" alt="Vehículo no automotor"> -->
-      <h4>Vehículo automotor</h4>
-      <!-- <img src="" alt="Vehículo automotor"> -->
+      <strong class="txt">Vehículo no automotor</strong>
+      <img src="../images/bicicleta.svg" alt="Vehiculo no automotor" class="tlp-img img3">
+      <strong class="txt2">Vehículo automotor</strong>
+      <img src="../images/moto y carro.svg" alt="Vehículos automotor" class="tlp-img img4">
     </div>
     <div class="tlp temp6">
       <h3>Licencias</h3>
-      <p>Pendiente</p>
+      <img src="../images/licencias.svg" alt="licencias de conducción" class="tlp-img img5">
     </div>
     <div class="tlp temp7">
       <h3>Elementos de la via</h3>
-      <!-- imagenes -->
+      <img src="../images/elemetos de la via.svg" alt="Elementos de la via" class="tlp-img img6">
+      <img src="../images/elementos2.svg" alt="Elementos de la via urbana" class="tlp-img img6-1">
     </div>
     <div class="tlp temp8">
       <h3>Señales de transito</h3>
-      <!-- imagenes -->
+      <img src="../images/señales-informativas.svg" alt="Señales informativas" class="tlp-img img7">
+      <img src="../images/Señales-Preventivas.svg" alt="Señales preventivas" class="tlp-img img8">
+      <img src="../images/reglamentarias.svg" alt="Señales reglamentarias" class="tlp-img img9">
+      <img src="../images/Señales-manuales.svg" alt="Señales manuales" class="tlp-img img10">
     </div>
     <div class="tlp temp9">
       <h3>Accidentalidad</h3>
       <h4>Causas de accidentalidad en Colombia:</h4>
       <h5>Exceso de velocidad</h5>
       <p>El código nacional de tránsito, en el artículo 106 estipula los 3 tipos de velocidad. En sectores residenciales, es de 30Km/hr; en avenida es de 60KM y carretera es de 80Km/hr o en esta última, pueden existir algunas variables.</p>
+      <img src="../images/exceso de velocidad.svg" alt="Exceso de velocidad" class="tlp-img">
     </div>
     <div class="tlp temp10">
       <h5>Efecto túnel:</h5>
       <p>Es la situación que se da cuando se produce un cataclismo perceptivo, cuando se va aumentando la velocidad de un vehículo automotor, los ángulos visuales laterales se agudizan, haciendo que una persona solo se concentre en un punto fijo del carril. Esto conlleva a que el conductor tenga un menor tiempo de reacción y a la vez un menor tiempo de frenado…</p></strong>
+      <img src="../images/Efecto-tunel.svg" alt="Efecto tunel" class="tlp-img">
     </div>
     <div class="tlp temp11">
       <h5>Distracciones</h5>
       <p>Esta es la segunda causa de accidentalidad a nivel nacional, esta se origina por la manipulación del teléfono móvil, ya sea enviando mensajes de texto o enviando llamadas. Otros factores que generan distracciones, puede ser por algo que vemos o por algo que escuchamos o inclusive algo que se manifieste en la vía durante el recorrido, como un accidente de tránsito, etc. </p>
+      <img src="../images/distraccion.svg" alt="Conductor distraido" class="tlp-img">
     </div>
 
     <div class="tlp temp12">
       <h5>Consumo de sustancias psicoactivas y alcohol </h5>
       <p>Se considera como la tercera causa de accidentalidad a nivel nacional, a pesar de que es una de las sanciones más costosas aún se sigue presentando entre las primeras 5 causales a nivel nacional. El ministerio de transporte en conjunto con la súper intendencia general de puertos y transporte han interpuesto diferentes leyes para promover la disminución de esta causa de accidentalidad.</p>
+      <img src="../images/alcohol.svg" alt="Consumo de alcohol" class="tlp-img">
     </div>
     <div class="tlp temp13">
       <h5>¡No respetar las señales de tránsito¡</h5>
       <p>Es muy común que los conductores que ya llevan una vasta experiencia en el tema de conducción, sean muy confiados y seguros, esto los lleva a tomar decisiones que en algunos casos resultan equivocas por no respetar una señal de pare, un semáforo, etc. </p>
+      <img src="../images/accidentabilidad.svg" alt="Accidente de transito" class="tlp-img">
     </div>
     <div class="tlp temp14">
       <h5>La impericia </h5>
       <p>La falta de conocimientos muchas veces lleva a que las personas cometan fácilmente un accidente, podemos resaltar también que los malos hábitos producen este tipo de situaciones.</p>
+      <iframe class="video" src="https://www.youtube.com/embed/FubYU-Ip2ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <button onclick="incrementClick()" class="btn btn-next">Siguiente</button>
     <button onclick="decrementClick()" class="btn btn-back">Retroceder</button>
