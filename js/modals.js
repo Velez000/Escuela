@@ -1,18 +1,27 @@
 var counterVal = 0;
-var content1 = document.querySelector(".temp1");
-var content2 = document.querySelector(".temp2");
-var content3 = document.querySelector(".temp3");
-var content4 = document.querySelector(".temp4");
-var content5 = document.querySelector(".temp5");
-var content6 = document.querySelector(".temp6");
-var content7 = document.querySelector(".temp7");
-var content8 = document.querySelector(".temp8");
-var content9 = document.querySelector(".temp9");
-var content10 = document.querySelector(".temp10");
-var content11 = document.querySelector(".temp11");
-var content12 = document.querySelector(".temp12");
-var content13 = document.querySelector(".temp13");
-var content14 = document.querySelector(".temp14");
+let content1 = document.querySelector(".temp1");
+let content2 = document.querySelector(".temp2");
+let content3 = document.querySelector(".temp3");
+let content4 = document.querySelector(".temp4");
+let content5 = document.querySelector(".temp5");
+let content6 = document.querySelector(".temp6");
+let content7 = document.querySelector(".temp7");
+let content8 = document.querySelector(".temp8");
+let content9 = document.querySelector(".temp9");
+let content10 = document.querySelector(".temp10");
+let content11 = document.querySelector(".temp11");
+let content12 = document.querySelector(".temp12");
+let content13 = document.querySelector(".temp13");
+let content14 = document.querySelector(".temp14");
+let content15 = document.querySelector(".temp15");
+let content16 = document.querySelector(".temp16");
+let content17 = document.querySelector(".temp17");
+let content18 = document.querySelector(".temp18");
+let content19 = document.querySelector(".temp19");
+let content20 = document.querySelector(".temp20");
+let content21 = document.querySelector(".temp21");
+let content22 = document.querySelector(".temp22");
+
 
 content1.style.display = "none";
 content2.style.display = "none";
@@ -28,6 +37,14 @@ content11.style.display = "none";
 content12.style.display = "none";
 content13.style.display = "none";
 content14.style.display = "none";
+content15.style.display = "none";
+content16.style.display = "none";
+content17.style.display = "none";
+content18.style.display = "none";
+content19.style.display = "none";
+content20.style.display = "none";
+content21.style.display = "none";
+content22.style.display = "none";
 
 function incrementClick() {
     updateDisplay(++counterVal);

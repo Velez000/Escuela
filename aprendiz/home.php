@@ -30,6 +30,7 @@ include('../aprendiz/base.php');
   </div>
 </div>
 
+
 <!-- Contenido del curso A2 -->
 
 <div class="contentA2">
@@ -53,7 +54,7 @@ include('../aprendiz/base.php');
     <h2>Marco legal</h2>
     <p class="p">Brindar al estudiante toda la información que comprende la normatividad del Código Nacional de
       Tránsito.</p>
-    <a href="#miModal2" class="link-content">Ver contenido</a>
+    <a href="#modal2" class="link-content">Ver contenido</a>
   </div>
 
 
@@ -61,7 +62,7 @@ include('../aprendiz/base.php');
   <div class="modules module-3">
     <h2>Etica vial</h2>
     <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse, unde corrupti autem dolorem vero doloremque illum deserunt nam voluptatibus, libero magnam. Dignissimos possimus quidem fuga, debitis ipsa recusandae inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptate nulla minus distinctio ea provident ratione, laborum labore perferendis impedit, amet perspiciatis aperiam dolorum repellat, illo molestias cupiditate vero. Voluptatem.</p>
-    <a href="#" class="link-content">Ver contenido</a>
+    <a href="#modal3" class="link-content">Ver contenido</a>
   </div>
 
 
@@ -71,7 +72,7 @@ include('../aprendiz/base.php');
     <p class="p">Aplicar una serie de técnicas, desde la manera correcta de sujetar el volante hasta la realización
       ordenada de una percepción de gestos que optimizan los movimientos y garantice la máxima
       precisión de éstos. </p>
-    <a href="#" class="link-content">Ver contenido</a>
+    <a href="#modal4" class="link-content">Ver contenido</a>
   </div>
 
 
@@ -81,9 +82,11 @@ include('../aprendiz/base.php');
     <p class="p">Entender el funcionamiento de un automóvil mediante una capacitación teórica, que permita una
       mejor comprensión de los distintos sistemas que lo componen, sus partes y el mantenimiento
       oportuno que se le debe realizar. </p>
-    <a href="#" class="link-content">Ver contenido</a>
+    <a href="#modal5" class="link-content">Ver contenido</a>
   </div>
 </div>
+
+
 
 <!--Contenido Adaptación-->
 <div id="miModal" class="modal">
@@ -112,7 +115,7 @@ include('../aprendiz/base.php');
     </div>
     <div class="tlp temp3">
       <h3>Factores que intervienen en el transito </h3>
-      <strong>Transito: </strong> 
+      <h4>Transito:</h4>
       <p>Desplazamiento organizado de personas, animales y vehículos que se desplazan por una vía pública o privada abierta al público.</p>
       <h4 class="h4f">Factor humano y vehicular</h4>
       <img src="../images/peatones.svg" alt="Personas en la via" class="tlp-img img1">
@@ -189,102 +192,206 @@ include('../aprendiz/base.php');
   </div>
 </div>
 
-<!--Contenido Marco legal-->
-<div id="miModal2" class="modal">
+<div id="modal2" class="modal">
   <div class="modal-contenido">
     <a href="#" class="buttom-close-modal">X</a>
     <h2 class="subtitle">MARCO LEGAL</h2>
-    <div class="tlp temp6">
-      <h4>Código Nacional de Tránsito y sus reglamentaciones</h4>
-      <p>Pendiente
-      </p>
-      <img src="../images/vehiculos_00001.svg" alt="Vehiculos en la ciudad" class="tlp-img prueba">
+    <div class="tlp">
+      <h4>Marco 1</h4>
     </div>
-    <div class="tlp temp7">
-      <h4>Aspectos legales del tránsito </h4>
-      <p>Pendiente
-      </p>
-      <img src="../images/carriles.svg" alt="Vehiculos en la ciudad" class="tlp-img">
+    <div class="tlp temp15">
+      <h4>Marco 2</h4>
     </div>
-    <div class="tlp temp8">
-      <h4>Documentos obligatorios </h4>
-      <p>Pendiente</p>
-      <img src="../images/parqueadero.svg" alt="estacionamiento.svg" class="tlp-img1">
-      <img src="../images/retrocedo-vias1.svg" alt="accidente.svg" class="tlp-img2">
+    <div class="tlp temp16">
+      <h4>Marco 3</h4>
     </div>
-    <div class="tlp temp9">
-      <h4>Licencias, clasificación y requisitos</h4>
-      <p>Pendiente</p>
-      <img src="../images/accidentabilidad.svg" alt="accidentabilidad.svg" class="tlp-img">
+    <div class="tlp temp17">
+      <h4>Marco 4</h4>
     </div>
-    <div class="tlp temp10">
-      <h4>Procedimientos jurídicos </h4>
-      <p>Pendiente</p>
-      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    <div class="tlp temp18">
+      <h4>Marco 5</h4>
     </div>
-    <div class="tlp temp11">
-      <h4>Normas de salud ocupacional </h4>
-      <p>Pendiente</p>
-      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    <div class="tlp temp19">
+      <h4>Marco 6</h4>
     </div>
-    <div class="tlp temp12">
-      <h4>Normas ambientales</h4>
-      <p>Pendiente</p>
-      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    <div class="tlp temp20">
+      <h4>Marco 7</h4>
     </div>
-    <div class="tlp temp13">
-      <h4>Normas de convivencia </h4>
-      <p>Pendiente</p>
-      <img src="../images/accidente_1.svg" alt="accidente.svg" class="tlp-img">
+    <div class="tlp temp21">
+      <h4>Marco 8</h4>
     </div>
-    <button onclick="suma()" class="btn btn-next">Siguiente</button>
-    <button onclick="resta()" class="btn btn-back">Retroceder</button>
-
+    <div class="tlp temp22">
+      <h4>Marco 9</h4>
+    </div>
+    <div class="tlp temp23">
+      <h4>Marco 10</h4>
+    </div>
+    <div class="tlp temp24">
+      <h4>Marco 11</h4>
+    </div>
+    <div class="tlp temp25">
+      <h4>Marco 12</h4>
+    </div>
+    <div class="tlp temp26">
+      <h4>Marco 1</h4>
+    </div>
+    <div class="tlp temp27">
+      <h4>Marco 13</h4>
+    </div>
   </div>
 </div>
 
-<!--Contenido Etica vial-->
-<div id="miModal3" class="modal">
+
+
+
+<div id="modal3" class="modal">
   <div class="modal-contenido">
-    <a href="#">X</a>
-    <h2>Etica vial </h2>
-    <div class="temp">
-      <h3>Etica vial</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus similique maxime eius iste sint, odio doloremque, quaerat quod et numquam laboriosam. Perspiciatis quam ipsa totam quae obcaecati ipsam amet ad.</p>
+    <a href="#" class="buttom-close-modal">X</a>
+    <h2 class="subtitle">ETICA VIAL</h2>
+    <div class="tlp">
+      <h4>Primer contenido</h4>
     </div>
-    <div class="temp2">Segundo click</div>
-    <div class="temp3">Tercer click</div>
+    <div class="tlp temp28">
+      <h4>Etica Vial 1</h4>
+    </div>
+    <div class="tlp temp29">
+      <h4>Etica Vial 2</h4>
+    </div>
+    <div class="tlp temp30">
+      <h4>Etica Vial 3</h4>
+    </div>
+    <div class="tlp temp31">
+      <h4>Etica Vial 4</h4>
+    </div>
+    <div class="tlp temp32">
+      <h4>Etica Vial 5</h4>
+    </div>
+    <div class="tlp temp33">
+      <h4>Etica Vial 6</h4>
+    </div>
+    <div class="tlp temp34">
+      <h4>Etica Vial 7</h4>
+    </div>
+    <div class="tlp temp35">
+      <h4>Etica Vial 8</h4>
+    </div>
+    <div class="tlp temp36">
+      <h4>Etica Vial 9</h4>
+    </div>
+    <div class="tlp temp37">
+      <h4>Etica Vial 10</h4>
+    </div>
+    <div class="tlp temp38">
+      <h4>Etica Vial 11</h4>
+    </div>
+    <div class="tlp temp39">
+      <h4>Etica Vial 12</h4>
+    </div>
+    <div class="tlp temp40">
+      <h4>Etica Vial 13</h4>
+    </div>
   </div>
 </div>
 
-<!--Contenido técnicas de conducción-->
-<div id="miModal4" class="modal">
+
+<div id="modal4" class="modal">
   <div class="modal-contenido">
-    <a href="#">X</a>
-    <h2>Técnicas de conducción</h2>
-    <div class="temp">
-      <h3>Técnias de conducción</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus similique maxime eius iste sint, odio doloremque, quaerat quod et numquam laboriosam. Perspiciatis quam ipsa totam quae obcaecati ipsam amet ad.</p>
+    <a href="#" class="buttom-close-modal">X</a>
+    <h2 class="subtitle">TÉCNICAS DE CONDUCCIÓN</h2>
+    <div class="tlp">
+      <h4>Técnicas 1</h4>
     </div>
-    <div class="temp2">Segundo click</div>
-    <div class="temp3">Tercer click</div>
+    <div class="tlp temp41">
+      <h4>Técnicas 2</h4>
+    </div>
+    <div class="tlp temp42">
+      <h4>Técnicas 3</h4>
+    </div>
+    <div class="tlp temp43">
+      <h4>Técnicas 4</h4>
+    </div>
+    <div class="tlp temp44">
+      <h4>Técnicas 5</h4>
+    </div>
+    <div class="tlp temp45">
+      <h4>Técnicas 6</h4>
+    </div>
+    <div class="tlp temp46">
+      <h4>Técnicas 7</h4>
+    </div>
+    <div class="tlp temp47">
+      <h4>Técnicas 8</h4>
+    </div>
+    <div class="tlp temp48">
+      <h4>Técnicas 9</h4>
+    </div>
+    <div class="tlp temp49">
+      <h4>Técnicas 10</h4>
+    </div>
+    <div class="tlp temp50">
+      <h4>Técnicas 11</h4>
+    </div>
+    <div class="tlp temp51">
+      <h4>Técnicas 12</h4>
+    </div>
+    <div class="tlp temp52">
+      <h4>Técnicas 13</h4>
+    </div>
   </div>
 </div>
 
-<!--Contenido Mecánica-->
-<div id="miModal5" class="modal">
+
+<div id="modal5" class="modal">
   <div class="modal-contenido">
-    <a href="#">X</a>
-    <h2>Mecánica</h2>
-    <div class="temp">
-      <h3>Mecánica</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus similique maxime eius iste sint, odio doloremque, quaerat quod et numquam laboriosam. Perspiciatis quam ipsa totam quae obcaecati ipsam amet ad.</p>
+    <a href="#" class="buttom-close-modal">X</a>
+    <h2 class="subtitle">MECÁNICA</h2>
+    <div class="tlp">
+      <h4>Mecanica 1</h4>
     </div>
-    <div class="temp2">Segundo click</div>
-    <div class="temp3">Tercer click</div>
+    <div class="tlp temp54">
+      <h4>Mecanica 2</h4>
+    </div>
+    <div class="tlp temp55">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp56">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp57">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp58">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp59">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp60">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp61">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp62">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp63">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp64">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp65">
+      <h4>Mecanica 3</h4>
+    </div>
+    <div class="tlp temp66">
+      <h4>Mecanica 3</h4>
+    </div>
   </div>
 </div>
-</body>
+
+
+
 
 </html>
 <script src="../js/modals.js"></script>

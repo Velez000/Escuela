@@ -44,6 +44,11 @@ p {
     text-align: justify;
 }
 
+.ciber {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
 .div-login {
     display: block;
     width: 50%;
@@ -470,7 +475,22 @@ p {
     pointer-events: auto;
 }
 
-#miModal2:target {
+#modal2:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#modal3:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#modal4:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#modal5:target {
     opacity: 1;
     pointer-events: auto;
 }
