@@ -1,7 +1,10 @@
 <?php
+  // Llamamos al fichero base para incluir el menu
+
 include('../aprendiz/base.php');
 ?>
-
+ <!-- Formulario que contiene los cursos de cada aprendiz registrado, Falta crear  -->
+ <!-- las evaluaciones con preguntas aleatorias y sus respectivas validaciones -->
 <div class="courses">
 
   <div class="my-courses course-1">

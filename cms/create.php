@@ -1,5 +1,5 @@
 <?php
- 
+// Crear administradores con una contraseña hash
 include('../php/config.php');
 session_start();
 

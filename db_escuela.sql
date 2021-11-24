@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 30-09-2021 a las 20:13:51
+-- Tiempo de generación: 24-11-2021 a las 14:55:08
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.10
 
@@ -31,7 +31,7 @@ CREATE TABLE `administrador` (
   `id` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
   `correo` varchar(100) NOT NULL,
-  `password1` varchar(100) NOT NULL
+  `password1` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `administrador` (
 --
 
 INSERT INTO `administrador` (`id`, `nombre`, `correo`, `password1`) VALUES
-(1, 'brahian', 'luis@gmail.com', '$2y$10$hquYHACcD2afGGO6I3W.cuPfMDd7P2e3lVEvOkAf8s8FenBicY2q6');
+(0, 'stiven', 'stiven@gmail.com', '$2y$10$QJyBNOG5tMiz2qymxpskQuHZ/TZqk6p8kTztCXmn.7q7mGraYe.WK');
 
 -- --------------------------------------------------------
 
@@ -49,18 +49,36 @@ INSERT INTO `administrador` (`id`, `nombre`, `correo`, `password1`) VALUES
 
 CREATE TABLE `aprendiz` (
   `id_apren` int(11) NOT NULL,
-  `nombre_apren` varchar(50) NOT NULL,
-  `correo` varchar(100) NOT NULL,
-  `fecha_creacion` date NOT NULL,
-  `password_apren` varchar(100) NOT NULL
+  `nombre_apren` varchar(50) DEFAULT NULL,
+  `correo` varchar(100) DEFAULT NULL,
+  `fecha_creacion` date DEFAULT NULL,
+  `password_apren` varchar(100) DEFAULT NULL,
+  `categorias` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `aprendiz`
 --
 
-INSERT INTO `aprendiz` (`id_apren`, `nombre_apren`, `correo`, `fecha_creacion`, `password_apren`) VALUES
-(101, 'jose davi velez velez', 'stiven1@gmail.com', '2001-06-18', '$2y$10$gUsn9l6/n7wI0ry6LOsES.qoBeIDrmH1uP5M5CgC.FdPcE7w2PyjO');
+INSERT INTO `aprendiz` (`id_apren`, `nombre_apren`, `correo`, `fecha_creacion`, `password_apren`, `categorias`) VALUES
+(1001010, 'Brahian stiven velez velez', 'brahian@gmail.com', '2001-06-18', '$2y$10$AM4B1hG0kqi4zUSI19BNuOrFmpnMgZQ/aPsHWv4xWMtK2gL9AsigG', 'A2B1C1Montacargas'),
+(1212121, 'egfdgf gffd gfhfd gffgh', 't@gmail.com', '2000-08-19', '$2y$10$XARRvZP4b8IBao4gfQztXuwv8FM8mHnYSHAFUHHbn8rPOpiowO.WW', 'A2');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `test`
+--
+
+CREATE TABLE `test` (
+  `id_pregun` int(11) NOT NULL,
+  `pregunta` varchar(300) NOT NULL,
+  `correcta` varchar(100) NOT NULL,
+  `incorrecta1` varchar(100) NOT NULL,
+  `incorrecta2` varchar(100) NOT NULL,
+  `incorrecta3` varchar(100) NOT NULL,
+  `id_apren2` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Índices para tablas volcadas
@@ -79,14 +97,31 @@ ALTER TABLE `aprendiz`
   ADD PRIMARY KEY (`id_apren`);
 
 --
+-- Indices de la tabla `test`
+--
+ALTER TABLE `test`
+  ADD PRIMARY KEY (`id_pregun`),
+  ADD KEY `id_apren2` (`id_apren2`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT de la tabla `administrador`
+-- AUTO_INCREMENT de la tabla `test`
 --
-ALTER TABLE `administrador`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `test`
+  MODIFY `id_pregun` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `test`
+--
+ALTER TABLE `test`
+  ADD CONSTRAINT `test_ibfk_1` FOREIGN KEY (`id_apren2`) REFERENCES `aprendiz` (`id_apren`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

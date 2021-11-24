@@ -1,12 +1,10 @@
 <?php
+  // Llamamos al fichero base_admi para incluir el menu
   include('base_admi.php');
 ?>
-  <div class="div-controll">
+  <!-- PENDIENTE: Formulario que contenga las notas de los examenes de los estudiantes -->
   
-    <form action="#" method="POST">
-    
-    </form>
-  </div>
 </body>
+
 
 </html>

@@ -1,3 +1,6 @@
+<!-- Conexion a la base de datos utilizando PDO para el login y una consulta sencilla que esta para pruebas 
+de traer el nombre de usuario siendo consultas normales, es buena opcion en las consultas normales intentar cambiarlas a PDO -->
+
 <?php
 define('USER', 'root');
 define('PASSWORD', '');

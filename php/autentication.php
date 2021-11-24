@@ -1,3 +1,4 @@
+<!-- Autentificacion de usuario en el login  -->
 <?php
 include('config.php');
 session_start();

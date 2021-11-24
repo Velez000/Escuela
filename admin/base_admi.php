@@ -1,3 +1,5 @@
+<!-- Verificación del login del administrador -->
+
 <?php
 session_start();
 
@@ -20,6 +22,8 @@ $fecha=time();
 $fecha_es= strtotime($fecha);
 $fecha_es=strftime("%B  %d del %Y", $fecha);
 ?>
+
+ <!-- Menu de navegacion del administrador -->
 <!DOCTYPE html>
 <html lang="es">
 

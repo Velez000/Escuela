@@ -1,7 +1,7 @@
 <?php
     include ('config.php');
     session_start();
-   
+//    Registrar aprendices
 if (isset($_POST['register'])) {
     $name1 = $_POST['label-firstname'];
     $name2 = $_POST['label-secondname'];

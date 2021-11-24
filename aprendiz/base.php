@@ -1,3 +1,4 @@
+<!-- Verificacion de los datos para el login en el perfil de estudiantes -->
 <?php
 session_start();
 
@@ -19,6 +20,8 @@ if (!isset($_SESSION['user_id2'])) {
   $fecha_es=strftime("%B  %d del %Y", $fecha);
 }
 ?>
+
+<!-- Menu de los estudiantes -->
 <!DOCTYPE html>
 <html lang="es">
 

@@ -1,3 +1,4 @@
+<!-- Cerrar sesion de los usuarios logueados -->
 <?php
 session_start();
 if (session_destroy()) {

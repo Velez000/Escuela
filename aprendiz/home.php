@@ -1,4 +1,5 @@
 <?php
+  // Llamamos al fichero base para incluir el menu
 include('../aprendiz/base.php');
 ?>
 <!-- Cursos -->
@@ -87,7 +88,7 @@ include('../aprendiz/base.php');
 </div>
 
 
-
+<!-- Contenido de los cursos -->
 <!--Contenido Adaptación-->
 <div id="miModal" class="modal">
   <div class="modal-contenido">
@@ -191,6 +192,7 @@ include('../aprendiz/base.php');
     <button onclick="decrementClick()" class="btn btn-back">Retroceder</button>
   </div>
 </div>
+<!-- Falta el resto del contenido -->
 
 <div id="modal2" class="modal">
   <div class="modal-contenido">
@@ -390,10 +392,6 @@ include('../aprendiz/base.php');
   </div>
 </div>
 
-
-
-
 </html>
-<script src="../js/modals.js"></script>
-<!-- <script src="../js/modal2.js"></script> -->
 <script src="../js/app.js"></script>
+<script src="../js/modals.js"></script>

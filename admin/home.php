@@ -1,6 +1,8 @@
 <?php
+  // Llamamos al fichero base_admi para incluir el menu
   include('base_admi.php');
 ?>
+ <!-- En el inicio tiene el formulario para el registro de nuevos aprendices o estudiantes -->
   <div class="div-controll">
     <form action="../php/register.php" method="POST">
       <div class="div-register">
@@ -38,7 +40,7 @@
           </div>
 
         </div>
-
+        <!-- Se envia la informacion al archivo register (no es importante el .php debido a que utilizamos .htaccess) -->
         <button type="submit" class="buttom-go" name="register" value="register">Registrar</button>
 
       </div>

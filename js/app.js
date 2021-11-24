@@ -1,3 +1,5 @@
+// En este archivo se ocultan los cursos al cargar el home, en un input hidden estan las categorias que se traen desde
+// la bd y se cargan en los que estan inscritos
 coursesPrint = document.getElementById("category").value;
 course1 = document.querySelector(".course-1");
 course2 = document.querySelector(".course-2");
